@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import { ClassMates } from "./Components/ClassMates/ClassMates";
-import { Parent } from "./Components/FooterSection/PropsWithfunction/Parent";
-import ParentClasses from "./PropsWithClassComponent/ParentClasses";
+// import { ClassMates } from "./Components/ClassMates/ClassMates";
+import { Parent } from "./Components/MainBody/PropsWithfunction/Parent";
+import ParentClasses from "./Components/MainBody/PropsWithClassComponent/ParentClasses";
 
 function App() {
   return (
     <React.Fragment>
-      <div>
-        <ClassMates />
+      <div className="App">
+        {/* <ClassMates /> */}
         <Parent />
         <ParentClasses />
       </div>
