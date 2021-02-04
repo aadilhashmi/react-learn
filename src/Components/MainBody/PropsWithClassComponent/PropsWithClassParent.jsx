@@ -4,7 +4,7 @@ import PropsWithClassChild from "./PropsWithClassChild";
 class PropsWithClassParent extends Component {
   state = {
     person: [
-      { name: "thor", age: 25 },
+      { name: "Thor", age: 25 },
       { name: "Superman", age: 25 },
       { name: "wonderwomen", age: 30 },
     ],
@@ -13,10 +13,15 @@ class PropsWithClassParent extends Component {
   render() {
     return (
       <div>
-        <PropsWithClassChild name="aamer khan" age="56" />
-        <PropsWithClassChild name="salman khan" age="56" />
-            <PropsWithClassChild name="shahruk khan khan" age="56" />
-            <PropsWithClassChild    name={this.state.}>
+        <PropsWithClassChild
+          name={this.state.person[0].name}
+          age={this.state.person[0].age}
+        />
+        <PropsWithClassChild
+          name={this.state.person[1].name}
+          age={this.state.person[1].age}
+        />
+        <PropsWithClassChild name="shahruk khan khan" age="56" />
       </div>
     );
   }
