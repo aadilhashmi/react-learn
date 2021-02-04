@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class PropsWithClassChild extends Component {
+export class PropsWithClassChild extends Component {
   render() {
     return (
       <div>
@@ -11,5 +11,3 @@ class PropsWithClassChild extends Component {
     );
   }
 }
-
-export default PropsWithClassChild;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PropsWithClassChild from "./PropsWithClassChild";
+import { PropsWithClassChild } from "./PropsWithClassChild";
 
-class PropsWithClassParent extends Component {
+export class PropsWithClassParent extends Component {
   state = {
     person: [
       { name: "Thor", age: 25 },
@@ -29,5 +29,3 @@ class PropsWithClassParent extends Component {
     );
   }
 }
-
-export default PropsWithClassParent;

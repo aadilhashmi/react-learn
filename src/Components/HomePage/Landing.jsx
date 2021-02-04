@@ -1,13 +1,14 @@
 import React from "react";
+import { PropsWithClassParent } from "./Components/MainBody/PropsWithClassComponent/PropsWithClassParent";
+import { ClassMates } from "../ClassMates/ClassMates";
 
-const Landing = () => {
+export const Landing = () => {
   return (
-    <div>
+    <React.Fragment>
+      <ClassMates />
+      <PropsWithClassParent />
       <HeaderSection />
-      <MainBody />
       <RightNavigation />
-    </div>
+    </React.Fragment>
   );
 };
-
-export default Landing;
