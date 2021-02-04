@@ -21,7 +21,10 @@ class PropsWithClassParent extends Component {
           name={this.state.person[1].name}
           age={this.state.person[1].age}
         />
-        <PropsWithClassChild name="shahruk khan khan" age="56" />
+        <PropsWithClassChild
+          name={this.state.person[2].name}
+          age={this.state.person[2].age}
+        />
       </div>
     );
   }
