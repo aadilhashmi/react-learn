@@ -7,8 +7,6 @@ export const Landing = () => {
     <React.Fragment>
       <ClassMates />
       <PropsWithClassParent />
-      {/* <HeaderSection />
-      <RightNavigation /> */}
     </React.Fragment>
   );
 };
