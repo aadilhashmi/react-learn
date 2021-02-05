@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 button {
-  border-radius: 20%;
+  border-radius: 10%;
   transition: ease-in-out 2s;
   margin: 10px;
   padding: 10px;
