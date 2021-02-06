@@ -2,6 +2,7 @@ import React from "react";
 import { PropsWithClassParent } from "../MainBody/PropsWithClassComponent/PropsWithClassParent";
 import { ClassMates } from "../ClassMates/ClassMates";
 import { Col, Row } from "react-bootstrap";
+import { Parent } from "../MainBody/PropsWithfunction/Parent";
 
 const HeaderSection = () => {
   return (
@@ -9,12 +10,16 @@ const HeaderSection = () => {
       <React.Fragment>
         <Row>
           <Col>
+            {/* amjad sir class tutorial */}
             <ClassMates />
           </Col>
           <Col>
+            {/* class components */}
             <PropsWithClassParent />
           </Col>
         </Row>
+        {/* funtion components */}
+        <Parent />
       </React.Fragment>
     </div>
   );
