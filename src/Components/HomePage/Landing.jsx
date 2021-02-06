@@ -1,12 +1,11 @@
 import React from "react";
-import { PropsWithClassParent } from "../MainBody/PropsWithClassComponent/PropsWithClassParent";
-import { ClassMates } from "../ClassMates/ClassMates";
+
+import HeaderSection from "../HeaderSection/HeaderSection";
 
 export const Landing = () => {
   return (
     <React.Fragment>
-      <ClassMates />
-      <PropsWithClassParent />
+      <HeaderSection />
     </React.Fragment>
   );
 };
