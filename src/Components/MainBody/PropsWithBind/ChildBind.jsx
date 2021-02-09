@@ -4,7 +4,12 @@ class ChildBind extends Component {
   render() {
     return (
       <div>
-        i am {this.props.name} my age {this.props.age}
+        <p>
+          i am {this.props.name} my age {this.props.age}
+        </p>
+        <p>
+          i am {this.props.name1} my age {this.props.age}
+        </p>
       </div>
     );
   }

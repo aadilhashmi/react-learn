@@ -13,17 +13,23 @@ class ParentBind extends Component {
   changNameHandler = (newname, newname1) => {
     this.setState({
       person: [
-        { name: newname, age: 10 },
-        { name: newname1, age: 20 },
+        { name: newname, age: 25 },
+        { name: newname1, age: 30 },
+        { name: "Captain America", age: 56 },
       ],
     });
   };
   render() {
     return (
       <div>
-        <button onClick={this.changNameHandler.bind(this, "aamer", "rizwan")}>
-          ON CLICK
+        <button onClick={this.changNameHandler.bind(this, "Khwaja", "rizwan")}>
+          ONCLICK
         </button>
+        <ChildBind
+          name={this.state.person[0].name}
+          age={this.state.person[0].age}
+        />
+        <ChildBind name={this.state.person[1].name} />
       </div>
     );
   }
