@@ -16,6 +16,14 @@ const ConditionalRenderingParentFunc = () => {
       ],
     });
   };
+  const onchangeHandler = (e) => {
+    setPersonData({
+      person: [
+        { name: e.target.value, age: 30 },
+        { name: "mazhar", age: 25 },
+      ],
+    });
+  };
 
   return (
     <div>
@@ -23,6 +31,7 @@ const ConditionalRenderingParentFunc = () => {
         first={personData.person[0].name}
         firstage={personData.person[0].age}
         Clicked={changNameHandler}
+        inputchange={onchangeHandler}
       />
     </div>
   );
