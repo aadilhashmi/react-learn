@@ -3,6 +3,7 @@ import { PropsWithClassParent } from "../MainBody/PropsWithClassComponent/PropsW
 import { ClassMates } from "../ClassMates/ClassMates";
 import { Col, Row } from "react-bootstrap";
 import { Parent } from "../MainBody/PropsWithfunction/Parent";
+import ParentBind from "../MainBody/PropsWithBind/ParentBind";
 
 const HeaderSection = () => {
   return (
@@ -21,6 +22,8 @@ const HeaderSection = () => {
         {/* funtion components */}
         <Parent />
       </React.Fragment>
+      {/* react binding tutorial */}
+      <ParentBind />
     </div>
   );
 };
