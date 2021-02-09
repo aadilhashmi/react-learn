@@ -4,6 +4,7 @@ import { ClassMates } from "../ClassMates/ClassMates";
 import { Col, Row } from "react-bootstrap";
 import { Parent } from "../MainBody/PropsWithfunction/Parent";
 import ParentBind from "../MainBody/PropsWithBind/ParentBind";
+import ConditionalRenderingParentFunc from "../MainBody/PropsWithfunction/ConditionalRendering/ConditionalRenderingParentFunc";
 
 const HeaderSection = () => {
   return (
@@ -24,6 +25,8 @@ const HeaderSection = () => {
       </React.Fragment>
       {/* react binding tutorial */}
       <ParentBind />
+      {/* conditional rendering tutorial starts  */}
+      <ConditionalRenderingParentFunc />
     </div>
   );
 };

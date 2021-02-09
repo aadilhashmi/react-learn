@@ -1,9 +1,11 @@
 import React from "react";
 
-const ConditionalRenderingChildFunc = () => {
+const ConditionalRenderingChildFunc = (item) => {
   return (
     <div>
-      <p></p>
+      <p onClick={item.Clicked}>
+        My name {item.first} and my age {item.firstage}
+      </p>
     </div>
   );
 };
