@@ -1,6 +1,6 @@
 import React from "react";
 
-const ConditionalRenderingChildFunc = (item) => {
+const UseStateChildFunc = (item) => {
   return (
     <div>
       <p onClick={item.Clicked}>
@@ -11,4 +11,4 @@ const ConditionalRenderingChildFunc = (item) => {
   );
 };
 
-export default ConditionalRenderingChildFunc;
+export default UseStateChildFunc;

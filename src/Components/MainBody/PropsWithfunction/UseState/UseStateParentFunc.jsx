@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ConditionalRenderingChildFunc from "./ConditionalRenderingChildFunc";
+import UseStateChildFunc from "./UseStateChildFunc";
 
-const ConditionalRenderingParentFunc = () => {
+const UseStateParentFunc = () => {
   const [personData, setPersonData] = useState({
     person: [
       { name: "Aamer ", age: 25 },
@@ -27,7 +27,7 @@ const ConditionalRenderingParentFunc = () => {
 
   return (
     <div>
-      <ConditionalRenderingChildFunc
+      <UseStateChildFunc
         first={personData.person[0].name}
         firstage={personData.person[0].age}
         Clicked={changNameHandler}
@@ -37,4 +37,4 @@ const ConditionalRenderingParentFunc = () => {
   );
 };
 
-export default ConditionalRenderingParentFunc;
+export default UseStateParentFunc;
