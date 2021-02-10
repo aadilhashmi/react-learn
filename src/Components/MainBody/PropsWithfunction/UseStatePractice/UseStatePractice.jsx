@@ -4,6 +4,8 @@ const UseStatePractice = () => {
   const [addnumber, setAddNumber] = useState(0);
   const handleCounter = () => {
     setAddNumber(addnumber + 1);
+  };
+  const handleCounter1 = () => {
     setAddNumber(addnumber - 1);
   };
 
@@ -14,7 +16,7 @@ const UseStatePractice = () => {
       <br />
       <br />
       <button onClick={handleCounter}>Add number</button>
-      <button onClick={handleCounter}>delete number</button>
+      <button onClick={handleCounter1}>delete number</button>
     </div>
   );
 };
