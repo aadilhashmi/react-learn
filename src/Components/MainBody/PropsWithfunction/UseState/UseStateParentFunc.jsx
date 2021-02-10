@@ -8,11 +8,11 @@ const UseStateParentFunc = () => {
       { name: "asfan", age: 20 },
     ],
   });
-  const changNameHandler = () => {
+  const changNameHandler = (nameone, nametwo) => {
     setPersonData({
       person: [
-        { name: "Aadil ", age: 25 },
-        { name: "rizwan", age: 20 },
+        { name: nameone, age: 25 },
+        { name: nametwo, age: 20 },
       ],
     });
   };
@@ -32,6 +32,13 @@ const UseStateParentFunc = () => {
         firstage={personData.person[0].age}
         Clicked={changNameHandler}
         inputchange={onchangeHandler}
+        Click={() => changNameHandler("dhoni")}
+      />
+      <UseStateChildFunc
+        first={personData.person[1].name}
+        firstage={personData.person[1].age}
+        Clicked={changNameHandler}
+        Click={() => changNameHandler("rohit")}
       />
     </div>
   );
