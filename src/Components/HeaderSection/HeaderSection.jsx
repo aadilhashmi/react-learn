@@ -5,6 +5,7 @@ import { Col, Row } from "react-bootstrap";
 import { Parent } from "../MainBody/PropsWithfunction/Parent";
 import ParentBind from "../MainBody/PropsWithBind/ParentBind";
 import UseStateParentFunc from "../MainBody/PropsWithfunction/UseState/UseStateParentFunc";
+import UseStatePractice from "../MainBody/PropsWithfunction/UseStatePractice/UseStatePractice";
 
 const HeaderSection = () => {
   return (
@@ -13,20 +14,21 @@ const HeaderSection = () => {
         <Row>
           <Col>
             {/* amjad sir class tutorial */}
-            <ClassMates />
+            {/* <ClassMates /> */}
           </Col>
           <Col>
             {/* class components */}
-            <PropsWithClassParent />
+            {/* <PropsWithClassParent /> */}
           </Col>
         </Row>
         {/* funtion components */}
-        <Parent />
+        {/* <Parent /> */}
       </React.Fragment>
       {/* react binding tutorial */}
-      <ParentBind />
+      {/* <ParentBind /> */}
       {/* usestate on click on change  tutorial starts  */}
       <UseStateParentFunc />
+      <UseStatePractice />
     </div>
   );
 };
