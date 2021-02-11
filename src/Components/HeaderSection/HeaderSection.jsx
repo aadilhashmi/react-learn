@@ -6,6 +6,7 @@ import { Parent } from "../MainBody/PropsWithfunction/Parent";
 import ParentBind from "../MainBody/PropsWithBind/ParentBind";
 import UseStateParentFunc from "../MainBody/PropsWithfunction/UseState/UseStateParentFunc";
 import UseStatePractice from "../MainBody/PropsWithfunction/UseStatePractice/UseStatePractice";
+import InlineCss from "../MainBody/PropsWithfunction/DirectCss/InlineCss";
 
 const HeaderSection = () => {
   return (
@@ -29,6 +30,7 @@ const HeaderSection = () => {
       {/* usestate on click on change  tutorial starts  */}
       <UseStateParentFunc />
       <UseStatePractice />
+      <InlineCss />
     </div>
   );
 };
