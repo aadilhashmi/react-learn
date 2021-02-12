@@ -15,10 +15,14 @@ const MapingParent = () => {
 
   return (
     <div>
-      {personData.map((pickupbizzData) => {
+      {personData.person.map((pickupbizzData) => {
         //   another return for maping
-        return;
-        <MapingChild person={pickupbizzData.name} />;
+        return (
+          <MapingChild
+            person1={pickupbizzData.name}
+            person={pickupbizzData.age}
+          />
+        );
       })}
     </div>
   );
