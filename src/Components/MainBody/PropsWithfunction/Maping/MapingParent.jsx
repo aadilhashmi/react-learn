@@ -16,7 +16,8 @@ const MapingParent = () => {
   return (
     <div>
       {/* maping starts from here  */}
-      {personData.map(pickupbizzData)}
+      {personData.map((pickupbizzData) => {})}
+      {console.log(pickupbizzData)}
       <MapingChild />
     </div>
   );
