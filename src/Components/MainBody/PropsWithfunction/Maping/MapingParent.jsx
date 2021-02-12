@@ -15,6 +15,7 @@ const MapingParent = () => {
 
   return (
     <div>
+      {/* maping stars from here ] */}
       {personData.person.map((pickupbizzData) => {
         //   another return for maping
         return (
