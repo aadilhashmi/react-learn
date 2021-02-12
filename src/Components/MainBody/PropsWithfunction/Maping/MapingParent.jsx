@@ -4,7 +4,7 @@ import MapingChild from "./MapingChild";
 const MapingParent = () => {
   const [personData, setPersonData] = useState({
     person: [
-      { name: "Aamer ", age: 25 },
+      { name: "AAMER ", age: 25 },
       { name: "RIZWAN", age: 20 },
       { name: "MAZHAR", age: 20 },
       { name: "AADIL", age: 20 },
