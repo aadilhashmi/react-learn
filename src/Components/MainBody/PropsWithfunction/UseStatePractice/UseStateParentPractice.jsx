@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const UseStatePractice = () => {
+const UseStateParentPractice = () => {
   const [addnumber, setAddNumber] = useState(0);
   const handleCounter = () => {
     setAddNumber(addnumber + 1);
@@ -21,4 +21,4 @@ const UseStatePractice = () => {
   );
 };
 
-export default UseStatePractice;
+export default UseStateParentPractice;

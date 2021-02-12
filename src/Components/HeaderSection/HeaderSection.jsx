@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { PropsWithClassParent } from "../MainBody/PropsWithClassComponent/PropsWithClassParent";
 import { ClassMates } from "../ClassMates/ClassMates";
 import { Col, Row } from "react-bootstrap";
 import { Parent } from "../MainBody/PropsWithfunction/Parent";
 import ParentBind from "../MainBody/PropsWithBind/ParentBind";
 import UseStateParentFunc from "../MainBody/PropsWithfunction/UseState/UseStateParentFunc";
-import UseStatePractice from "../MainBody/PropsWithfunction/UseStatePractice/UseStatePractice";
+
 import InlineCss from "../MainBody/PropsWithfunction/DirectCss/InlineCss";
+import UseStateParentPractice from "../MainBody/PropsWithfunction/UseStatePractice/UseStateParentPractice";
+import MapingPrent from "../MainBody/PropsWithfunction/Maping/MapingParent";
 
 const HeaderSection = () => {
   return (
@@ -29,8 +31,9 @@ const HeaderSection = () => {
       {/* <ParentBind /> */}
       {/* usestate on click on change  tutorial starts  */}
       <UseStateParentFunc />
-      <UseStatePractice />
+      <UseStateParentPractice />
       <InlineCss />
+      <MapingPrent />
     </div>
   );
 };
