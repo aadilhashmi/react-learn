@@ -4,7 +4,7 @@ const MapingChild = (item) => {
   return (
     <div>
       <p>
-        My name {item.first} and my age {item.firstage}
+        My name {item.name} and my age {item.age}
       </p>
     </div>
   );
