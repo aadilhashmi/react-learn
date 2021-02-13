@@ -19,10 +19,7 @@ const MapingParent = () => {
       {personData.person.map((pickupbizzData) => {
         //   another return for maping
         return (
-          <MapingChild
-            person1={pickupbizzData.name}
-            person={pickupbizzData.age}
-          />
+          <MapingChild name={pickupbizzData.name} age={pickupbizzData.age} />
         );
       })}
     </div>
