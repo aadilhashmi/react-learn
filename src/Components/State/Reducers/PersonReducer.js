@@ -4,8 +4,7 @@ export const PersonReducer = {
       id: "123qwe",
       name: "AMJAD",
       age: 34,
-          discription: "he is a final year student  from mgm engineering collage",
-          img= src="logo512.png", alt="error",
+      discription: "he is a final year student  from mgm engineering collage",
     },
     {
       id: "123qwe",
