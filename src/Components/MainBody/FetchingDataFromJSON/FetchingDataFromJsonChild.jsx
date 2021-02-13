@@ -4,8 +4,8 @@ import { Card, Button } from "react-bootstrap";
 const FetchingDataFromJsonChild = () => {
   return (
     <div>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+      <Card style={{ width: "25rem" }}>
+        <Card.Img variant="top" src="img.jpg" width="300px" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
