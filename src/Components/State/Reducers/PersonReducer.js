@@ -1,4 +1,4 @@
-const PersonReducer = {
+export const PersonReducer = {
   person: [
     {
       id: "123qwe",
