@@ -9,6 +9,7 @@ import UseStateParentFunc from "../MainBody/PropsWithfunction/UseState/UseStateP
 import InlineCss from "../MainBody/PropsWithfunction/DirectCss/InlineCss";
 import UseStateParentPractice from "../MainBody/PropsWithfunction/UseStatePractice/UseStateParentPractice";
 import MapingPrent from "../MainBody/PropsWithfunction/Maping/MapingParent";
+import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/FetchingDataFromJsonParent";
 
 const HeaderSection = () => {
   return (
@@ -30,10 +31,11 @@ const HeaderSection = () => {
       {/* react binding tutorial */}
       {/* <ParentBind /> */}
       {/* usestate on click on change  tutorial starts  */}
-      <UseStateParentFunc />
-      <UseStateParentPractice />
-      <InlineCss />
-      <MapingPrent />
+      {/* <UseStateParentFunc /> */}
+      {/* <UseStateParentPractice /> */}
+      {/* <InlineCss /> */}
+      {/* <MapingPrent /> */}
+      <FetchingDataFromJsonParent />
     </div>
   );
 };
