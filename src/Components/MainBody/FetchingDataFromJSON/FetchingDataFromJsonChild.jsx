@@ -1,10 +1,11 @@
 import React from "react";
+import "./FetchingData.css";
 import { Card, Button } from "react-bootstrap";
 
 const FetchingDataFromJsonChild = ({ Data }) => {
   return (
-    <div>
-      <Card style={{ width: "25rem" }}>
+    <div className="main">
+      <Card className="card" style={{ width: "25rem" }}>
         <Card.Img variant="top" src={Data.image} width="300px" />
         <Card.Body>
           <Card.Title>{Data.name}</Card.Title>
