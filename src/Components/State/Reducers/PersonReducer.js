@@ -1,7 +1,7 @@
 const PersonReducer = {
   person: [
     {
-      name: "AMJAD",
+     id: "123qwe" name: "AMJAD",
       age: 34,
       discription: "he is a final year student  from mgm engineering collage",
     },
