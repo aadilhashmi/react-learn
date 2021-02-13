@@ -1,7 +1,7 @@
 import React from "react";
 
 const FetchingDataFromJsonChild = () => {
-  return <div></div>;
+  return <div>hellooooo booom guysssss</div>;
 };
 
 export default FetchingDataFromJsonChild;
