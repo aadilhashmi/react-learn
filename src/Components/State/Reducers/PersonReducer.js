@@ -12,27 +12,27 @@ const PersonReducer = {
     },
     {
       name: "Aamer",
-      age: 34,
+      age: 25,
       discription: "he is a second year student  from mgm engineering collage",
     },
     {
       name: "khawaja",
-      age: 34,
+      age: 26,
       discription: "he is a third year student  from mgm engineering collage",
     },
     {
       name: "salman",
-      age: 34,
+      age: 27,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "umair",
-      age: 34,
+      age: 30,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "rizwan",
-      age: 34,
+      age: 25,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
@@ -42,37 +42,37 @@ const PersonReducer = {
     },
     {
       name: "tausif",
-      age: 34,
+      age: 27,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "sam",
-      age: 34,
+      age: 20,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "mazhar",
-      age: 34,
+      age: 25,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "aadil",
-      age: 34,
+      age: 25,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "shoib",
-      age: 34,
+      age: 22,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "rehan",
-      age: 34,
+      age: 25,
       discription: "he is a first year student  from mgm engineering collage",
     },
     {
       name: "rabey",
-      age: 34,
+      age: 21,
       discription: "he is a first year student  from mgm engineering collage",
     },
   ],
