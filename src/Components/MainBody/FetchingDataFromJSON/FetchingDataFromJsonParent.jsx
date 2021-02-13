@@ -5,7 +5,7 @@ const FetchingDataFromJsonParent = () => {
   return (
     <div>
       {PersonReducer.personDetails.map((fecthData) => {
-        return <FetchingDataFromJsonChild data={fecthData} />;
+        return <FetchingDataFromJsonChild Data={fecthData} />;
       })}
     </div>
   );
