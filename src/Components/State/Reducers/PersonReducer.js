@@ -1,5 +1,5 @@
 export const PersonReducer = {
-  person: [
+  personDetails: [
     {
       id: "123qwe",
       name: "AMJAD",

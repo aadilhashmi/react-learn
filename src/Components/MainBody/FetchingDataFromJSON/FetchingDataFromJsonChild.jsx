@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-const FetchingDataFromJsonChild = () => {
+const FetchingDataFromJsonChild = (item) => {
   return (
     <div>
       <Card style={{ width: "25rem" }}>

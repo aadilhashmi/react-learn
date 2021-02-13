@@ -4,7 +4,9 @@ import { PersonReducer } from "../../State/Reducers/PersonReducer";
 const FetchingDataFromJsonParent = () => {
   return (
     <div>
-      <FetchingDataFromJsonChild />
+      {PersonReducer.personDetails.map((fecthData) => {
+        return <FetchingDataFromJsonChild data={fecthData} />;
+      })}
     </div>
   );
 };
