@@ -1,5 +1,6 @@
 .main {
   display: inline-block;
+  height: 500px;
 }
 .card {
   border: 2px solid black;

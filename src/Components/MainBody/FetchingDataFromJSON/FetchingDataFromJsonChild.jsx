@@ -9,6 +9,7 @@ const FetchingDataFromJsonChild = ({ Data }) => {
         <Card.Img variant="top" src={Data.image} width="300px" />
         <Card.Body>
           <Card.Title>{Data.name}</Card.Title>
+          {Data.age}
           <Card.Text>{Data.discription}</Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>

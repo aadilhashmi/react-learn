@@ -11,14 +11,14 @@ export const PersonReducer = {
       id: "123qwe",
       name: "zubair",
       age: 34,
-      discription: "he is a final year student  from mgm engineering collage",
+      discription: "he is a final year student from mgm engineering collage",
       image: "img.jpg",
     },
     {
       id: "123qwe",
       name: "Aamer",
       age: 25,
-      discription: "he is a second year student  from mgm engineering collage",
+      discription: "he is a second year student from mgm engineering collage",
       image: "img.jpg",
     },
     {
@@ -52,7 +52,7 @@ export const PersonReducer = {
     {
       id: "123qwe",
       name: "zubair",
-      age: 34,
+      age: 27,
       discription: "he is a first year student  from mgm engineering collage",
       image: "img.jpg",
     },
