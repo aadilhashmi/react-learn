@@ -35,7 +35,7 @@ const HeaderSection = () => {
       {/* <UseStateParentPractice /> */}
       {/* <InlineCss /> */}
       {/* <MapingPrent /> */}
-      {/* <FetchingDataFromJsonParent /> */}
+      <FetchingDataFromJsonParent />
     </div>
   );
 };
