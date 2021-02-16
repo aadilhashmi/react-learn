@@ -13,8 +13,8 @@ import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/Fetchin
 
 const HeaderSection = () => {
   return (
-    <div>
-      <React.Fragment>
+    <React.Fragment>
+      <div>
         <Row>
           <Col>
             {/* amjad sir class tutorial */}
@@ -27,16 +27,16 @@ const HeaderSection = () => {
         </Row>
         {/* funtion components */}
         {/* <Parent /> */}
-      </React.Fragment>
-      {/* react binding tutorial */}
-      {/* <ParentBind /> */}
-      {/* usestate on click on change  tutorial starts  */}
-      {/* <UseStateParentFunc /> */}
-      {/* <UseStateParentPractice /> */}
-      {/* <InlineCss /> */}
-      {/* <MapingPrent /> */}
-      <FetchingDataFromJsonParent />
-    </div>
+        {/* react binding tutorial */}
+        {/* <ParentBind /> */}
+        {/* usestate on click on change  tutorial starts  */}
+        {/* <UseStateParentFunc /> */}
+        {/* <UseStateParentPractice /> */}
+        {/* <InlineCss /> */}
+        {/* <MapingPrent /> */}
+        <FetchingDataFromJsonParent />
+      </div>
+    </React.Fragment>
   );
 };
 
