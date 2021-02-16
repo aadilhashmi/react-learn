@@ -2,7 +2,10 @@ const groupReducer = (state = groupsDefaultState, action) => {
   switch (action.type) {
     case "ADD_NEW_GROUP":
       //   triple dot ka mtlb spread opretor
-      return { ...state };
+      return {
+        ...state,
+        group: [action.group, ...state.group],
+      };
   }
 };
 
