@@ -15,7 +15,7 @@
   color: tomato;
 }
 .desc {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0);
   color: whitesmoke;
   border-radius: 50px;
   transition: ease-in-out 0.5s;
@@ -24,10 +24,11 @@
   background-color: tomato;
 }
 .buttons {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0);
   color: aliceblue;
   padding: 5px;
-  transition: ease-in-out 1s;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
 }
 .buttons:hover {
   background-color: tomato;
