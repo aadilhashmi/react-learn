@@ -9,12 +9,12 @@ const groupsDefaultState = {
     },
     {
       name: "Learning Redux",
-      image: "img.jpg",
+      image: "logo192.png",
       desc: "This first Group Created With Redux",
     },
     {
       name: "React Devolopers",
-      image: "img.jpg",
+      image: "logo512.png",
       desc: "This first Group Created With Redux",
     },
   ],
