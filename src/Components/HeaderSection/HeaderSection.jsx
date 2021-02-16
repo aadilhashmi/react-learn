@@ -18,22 +18,22 @@ const HeaderSection = () => {
         <Row>
           <Col>
             {/* amjad sir class tutorial */}
-            {/* <ClassMates /> */}
+            <ClassMates />
           </Col>
           <Col>
             {/* class components */}
-            {/* <PropsWithClassParent /> */}
+            <PropsWithClassParent />
           </Col>
         </Row>
         {/* funtion components */}
-        {/* <Parent /> */}
+        <Parent />
         {/* react binding tutorial */}
-        {/* <ParentBind /> */}
+        <ParentBind />
         {/* usestate on click on change  tutorial starts  */}
-        {/* <UseStateParentFunc /> */}
-        {/* <UseStateParentPractice /> */}
-        {/* <InlineCss /> */}
-        {/* <MapingPrent /> */}
+        <UseStateParentFunc />
+        <UseStateParentPractice />
+        <InlineCss />
+        <MapingPrent />
         <FetchingDataFromJsonParent />
       </div>
     </React.Fragment>
