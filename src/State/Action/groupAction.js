@@ -1,4 +1,4 @@
-const addNewGroup = (name, id) => ({
+export const addNewGroup = (name, id) => ({
   // UNDER double qoutation capital latter must
   type: "ADD_NEW_GROUP",
   groups: {
