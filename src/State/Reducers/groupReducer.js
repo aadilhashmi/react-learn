@@ -2,17 +2,17 @@ const groupsDefaultState = {
   groups: [
     {
       name: "Redux Practical",
-      image: "Assets/Rose.jpg",
+      image: "redux.png",
       desc: "This Is First Group Created With Redux",
     },
     {
       name: "Learning Redux",
-      image: "Assets/Rose.jpg",
+      image: "redux2.png",
       desc: "This Is First Group Created With Redux",
     },
     {
       name: "React Developers",
-      image: "logo512.png",
+      image: "redux3.png",
       desc: "This Is First Group Created With Redux",
     },
   ],
