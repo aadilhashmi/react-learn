@@ -1,7 +1,6 @@
 import { createStore, combineReducers } from "redux";
 import { groupReducer } from "../Reducers/groupReducer";
-
-const configureStore = () => {
+export const configreStore = () => {
   const store = createStore(
     combineReducers({
       groupReducer,
@@ -10,5 +9,3 @@ const configureStore = () => {
   );
   return store;
 };
-
-export default configureStore;
