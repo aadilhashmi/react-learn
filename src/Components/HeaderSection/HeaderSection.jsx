@@ -10,6 +10,7 @@ import InlineCss from "../MainBody/PropsWithfunction/DirectCss/InlineCss";
 import UseStateParentPractice from "../MainBody/PropsWithfunction/UseStatePractice/UseStateParentPractice";
 import MapingPrent from "../MainBody/PropsWithfunction/Maping/MapingParent";
 import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/FetchingDataFromJsonParent";
+import FetchingDataFromReduxParent from "../MainBody/FetchingDataFromRedux/FetchingDataFromReduxParent";
 
 const HeaderSection = () => {
   return (
@@ -35,6 +36,7 @@ const HeaderSection = () => {
         <InlineCss />
         <MapingPrent />
         <FetchingDataFromJsonParent />
+        <FetchingDataFromReduxParent />
       </div>
     </React.Fragment>
   );
