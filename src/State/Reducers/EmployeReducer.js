@@ -26,7 +26,10 @@ const EmployeDefaultState = {
 export const EmployeReducer = (state = EmployeDefaultState, action) => {
   switch (action.type) {
     case "ADD_NEW_GROUP":
-      return { ...state, Employe: [...state.Employe, action.Employe] };
+      return {
+        ...state,
+        Employe: [...state.Employe, action.Employe],
+      };
     default:
       return state;
   }
