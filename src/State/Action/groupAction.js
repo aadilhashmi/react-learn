@@ -5,3 +5,10 @@ export const addNewGroup = (name, id) => ({
     id,
   },
 });
+export const addNewGroup = (name, id) => ({
+  type: "ADD_NEW_GROUP",
+  Employe: {
+    name,
+    id,
+  },
+});
