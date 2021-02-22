@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { configureStore } from "./State/Store/configureStore";
 import { EmployeStore } from "./State/Store/EmployeStore";
 import { Provider } from "react-redux";
-// const store=  confitureStore();
+// const store=  configureStore();
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={configureStore()} store={EmployeStore()}>
