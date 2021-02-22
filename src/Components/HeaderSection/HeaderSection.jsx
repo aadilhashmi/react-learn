@@ -11,6 +11,7 @@ import UseStateParentPractice from "../MainBody/PropsWithfunction/UseStatePracti
 import MapingPrent from "../MainBody/PropsWithfunction/Maping/MapingParent";
 import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/FetchingDataFromJsonParent";
 import FetchingDataFromReduxParent from "../MainBody/FetchingDataFromRedux/FetchingDataFromReduxParent";
+import FetchingEmployeParent from "../MainBody/FetchingEmployeData/FetchingEmployeParent";
 
 const HeaderSection = () => {
   return (
@@ -37,6 +38,7 @@ const HeaderSection = () => {
         <MapingPrent />
         <FetchingDataFromJsonParent />
         <FetchingDataFromReduxParent />
+        <FetchingEmployeParent />
       </div>
     </React.Fragment>
   );
