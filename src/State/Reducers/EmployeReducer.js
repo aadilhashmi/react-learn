@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
 const EmployeDefaultState = {
   Employe: [
     {
-      id: "24555",
+      id: uuidv4(),
       name: "Shaikh Salman",
       image: "salman2.jpg",
       desc: "API ",
