@@ -1,28 +1,28 @@
 export const PersonReducer = {
   personDetails: [
     {
-      id: "123qwe",
+      id: "12qwe",
       name: "AMJAD",
       age: 34,
       discription: "he is a final year student  from mgm engineering collage",
       image: "redux3.png",
     },
     {
-      id: "123qwe",
+      id: "13qwe",
       name: "zubair",
       age: 34,
       discription: "he is a final year student from mgm engineering collage",
       image: "redux.png",
     },
     {
-      id: "123qwe",
+      id: "123we",
       name: "Aamer",
       age: 25,
       discription: "he is a second year student from mgm engineering collage",
       image: "redux2.png",
     },
     {
-      id: "123qwe",
+      id: "23qwe",
       name: "khawaja",
       age: 26,
       discription: "he is a third year student  from mgm engineering collage",
