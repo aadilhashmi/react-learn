@@ -9,7 +9,7 @@ const EmployeDefaultState = {
     {
       id: "24556",
       name: "Khawaja pasha",
-      image: "",
+      image: "khwaja.jpg",
       desc: "REACT DEVELOPER",
     },
     {
