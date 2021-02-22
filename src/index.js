@@ -4,12 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { configureStore } from "./State/Store/configureStore";
-import { EmployeStore } from "./State/Store/EmployeStore";
 import { Provider } from "react-redux";
 // const store=  configureStore();
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={configureStore()} store1={EmployeStore()}>
+    <Provider store={configureStore()}>
       <App />
     </Provider>
   </React.StrictMode>,

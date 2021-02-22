@@ -3,7 +3,7 @@ const EmployeDefaultState = {
     {
       id: "24555",
       name: "Shaikh Salman",
-      image: "salamn.webp",
+      image: "salman.jpg",
       desc: "API ",
     },
     {
