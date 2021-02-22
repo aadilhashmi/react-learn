@@ -1,19 +1,22 @@
 const EmployeDefaultState = {
   Employe: [
     {
-      name: "Redux Practical",
-      image: "redux.png",
-      desc: "This Is First Group Created With Redux",
+      id: "24555",
+      name: "Shaikh Salman",
+      image: "salamn.webp",
+      desc: "API ",
     },
     {
-      name: "Learning Redux",
+      id: "24556",
+      name: "Khawaja pasha",
       image: "redux2.png",
-      desc: "This Is First Group Created With Redux",
+      desc: "REACT DEVELOPER",
     },
     {
-      name: "React Developers",
+      id: "24557",
+      name: "Md Rizwan",
       image: "redux3.png",
-      desc: "This Is First Group Created With Redux",
+      desc: "PHP DEVELOPER",
     },
   ],
 };
