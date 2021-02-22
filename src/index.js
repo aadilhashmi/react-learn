@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 // const store=  configureStore();
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={configureStore()} store={EmployeStore()}>
+    <Provider store={configureStore()} store1={EmployeStore()}>
       <App />
     </Provider>
   </React.StrictMode>,
