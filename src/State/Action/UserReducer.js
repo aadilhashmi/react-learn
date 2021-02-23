@@ -10,11 +10,11 @@ const userDefaultState = {
       name: "RIZWAN",
       desc: "learning ANGULAR  ",
     },
-    // {
-    //   id: uuvidv4(),
-    //   name: "SALMAN",
-    //   desc: "learning REACTJS ",
-    // },
+    {
+      id: uuvidv4(),
+      name: "SALMAN",
+      desc: "learning REACTJS ",
+    },
   ],
 };
 export const 
