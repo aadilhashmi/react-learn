@@ -16,7 +16,7 @@ const EmployeDefaultState = {
     },
     {
       id: "24557",
-      name: "Md A",
+      name: "Md Aamer",
       image: "aamer.jpg",
       desc: "FRONTEND DEVELOPER",
     },
