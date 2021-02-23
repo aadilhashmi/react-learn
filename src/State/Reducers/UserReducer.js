@@ -1,17 +1,19 @@
+import { v4 as uuidv4 } from "uuid";
+
 const userDefaultState = {
   User: [
     {
-      id: uuvidv4(),
+      id: uuidv4(),
       name: "AADIL",
       desc: "learning redux ",
     },
     {
-      id: uuvidv4(),
+      id: uuidv4(),
       name: "RIZWAN",
       desc: "learning ANGULAR  ",
     },
     {
-      id: uuvidv4(),
+      id: uuidv4(),
       name: "SALMAN",
       desc: "learning REACTJS ",
     },
