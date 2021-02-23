@@ -12,6 +12,7 @@ import MapingPrent from "../MainBody/PropsWithfunction/Maping/MapingParent";
 import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/FetchingDataFromJsonParent";
 import FetchingDataFromReduxParent from "../MainBody/FetchingDataFromRedux/FetchingDataFromReduxParent";
 import FetchingEmployeParent from "../MainBody/FetchingEmployeData/FetchingEmployeParent";
+import FetchingUserParent from "../MainBody/FetchingUserDataFromRedux/FetchingUserParent";
 
 const HeaderSection = () => {
   return (
@@ -39,6 +40,7 @@ const HeaderSection = () => {
         <FetchingDataFromJsonParent />
         <FetchingDataFromReduxParent />
         <FetchingEmployeParent />
+        <FetchingUserParent />
       </div>
     </React.Fragment>
   );
