@@ -5,11 +5,11 @@ const userDefaultState = {
       name: "AADIL",
       desc: "learning redux ",
     },
-    // {
-    //   id: uuvidv4(),
-    //   name: "RIZWAN",
-    //   desc: "learning ANGULAR  ",
-    // },
+    {
+      id: uuvidv4(),
+      name: "RIZWAN",
+      desc: "learning ANGULAR  ",
+    },
     // {
     //   id: uuvidv4(),
     //   name: "SALMAN",
