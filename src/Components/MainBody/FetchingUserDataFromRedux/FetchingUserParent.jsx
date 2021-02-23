@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { getAllUser } from "../../../State/selectors/UserSelector";
+import FetchingUserChild from "./FetchingUserChild";
 
 const FetchingUserParent = () => {
   const selector = useSelector(getAllUser);
@@ -8,13 +9,13 @@ const FetchingUserParent = () => {
   useEffect(() => {
     setUserData(selector);
   }, [selector]);
-    return <div>
-        {UserData &&
-            UserData.map((fetchData) => {
-                userData = (fetchData),
-              key=(fetchData.id)
-      }}
-  </div>;
+  return (
+    <div>
+      {UserData &&
+        UserData.map((fetchdata) => {
+          return <FetchingUserChild userData={fetchdata} key={fetchdata.id} />;
+        })}
+    </div>
+  );
 };
-
 export default FetchingUserParent;
