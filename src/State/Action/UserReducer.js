@@ -17,6 +17,8 @@ const userDefaultState = {
     },
   ],
 };
-export const UserReducer = state=
-
-}
+export const UserReducer = (state = userDefaultState, action) => {
+  switch (action.type) {
+    case "ADD_NEW_USER":
+  }
+};
