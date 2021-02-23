@@ -17,4 +17,6 @@ const userDefaultState = {
     },
   ],
 };
-export const 
+export const UserReducer = state= => {
+
+}
