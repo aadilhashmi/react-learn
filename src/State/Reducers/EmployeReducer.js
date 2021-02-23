@@ -9,13 +9,13 @@ const EmployeDefaultState = {
       desc: "API ",
     },
     {
-      id: "24556",
+      id: uuidv4(),
       name: "Khawaja pasha",
       image: "khwaja.jpg",
       desc: "REACT DEVELOPER",
     },
     {
-      id: "24557",
+      id: uuidv4(),
       name: "Md Aamer",
       image: "aamer.jpg",
       desc: "FRONTEND DEVELOPER",
