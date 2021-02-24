@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./EnableDisable.css";
 
-class EnableDisable extends Component {
+class Enable_Disable extends Component {
   state = {
     disabled: true,
   };
@@ -22,7 +22,6 @@ class EnableDisable extends Component {
         <form>
           <input type="text" placeholder="ENTER" onChange={this.handleChange} />
           <br />
-          <br />
           <button disabled={this.state.disabled}>SUBMIT</button>
         </form>
       </div>
@@ -30,4 +29,4 @@ class EnableDisable extends Component {
   }
 }
 
-export default EnableDisable;
+export default Enable_Disable;

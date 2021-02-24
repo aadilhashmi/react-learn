@@ -13,7 +13,7 @@ import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/Fetchin
 import FetchingDataFromReduxParent from "../MainBody/FetchingDataFromRedux/FetchingDataFromReduxParent";
 import FetchingEmployeParent from "../MainBody/FetchingEmployeData/FetchingEmployeParent";
 import FetchingUserParent from "../MainBody/FetchingUserDataFromRedux/FetchingUserParent";
-import EnableDisable from "../MainBody/PropsWithfunction/enable-disableButtonWithClassFunction/EnableDisable";
+import Enable_Disable from "../MainBody/PropsWithfunction/enable-disableButtonWithClassFunction/Enable_Disable";
 
 const HeaderSection = () => {
   return (
@@ -42,7 +42,7 @@ const HeaderSection = () => {
         <FetchingDataFromReduxParent />
         <FetchingEmployeParent />
         <FetchingUserParent />
-        <EnableDisable />
+        <Enable_Disable />
       </div>
     </React.Fragment>
   );
