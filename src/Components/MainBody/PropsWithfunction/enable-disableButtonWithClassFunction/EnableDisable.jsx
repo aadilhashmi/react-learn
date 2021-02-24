@@ -14,7 +14,8 @@ class EnableDisable extends Component {
         disabled: true,
       });
     }
-    render();
+  };
+  render() {
     return (
       <div>
         <form>
@@ -25,7 +26,7 @@ class EnableDisable extends Component {
         </form>
       </div>
     );
-  };
+  }
 }
 
 export default EnableDisable;
