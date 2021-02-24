@@ -4,7 +4,17 @@ class EnableDisable extends Component {
   state = {
     disable: true,
   };
-  render() {
+  handleChange = (e) => {
+    if (e.target.value.lenght >= 6) {
+      this.setState({
+        disable: fasle,
+      });
+    } else {
+      this.state({
+        disable: true,
+      });
+    }
+    render();
     return (
       <div>
         <form>
@@ -15,7 +25,7 @@ class EnableDisable extends Component {
         </form>
       </div>
     );
-  }
+  };
 }
 
 export default EnableDisable;
