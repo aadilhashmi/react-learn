@@ -13,7 +13,7 @@ import FetchingDataFromJsonParent from "../MainBody/FetchingDataFromJSON/Fetchin
 import FetchingDataFromReduxParent from "../MainBody/FetchingDataFromRedux/FetchingDataFromReduxParent";
 import FetchingEmployeParent from "../MainBody/FetchingEmployeData/FetchingEmployeParent";
 import FetchingUserParent from "../MainBody/FetchingUserDataFromRedux/FetchingUserParent";
-import Enable_Disable from "../MainBody/PropsWithfunction/enable-disableButtonWithClassFunction/Enable_Disable";
+import Enable_Disable from "../MainBody/PropsWithClassComponent/enable-disableButtonWithClassFunction/Enable_Disable";
 
 const HeaderSection = () => {
   return (
