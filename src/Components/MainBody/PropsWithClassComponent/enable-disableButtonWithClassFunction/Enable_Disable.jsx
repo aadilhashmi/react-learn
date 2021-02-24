@@ -5,7 +5,7 @@ class Enable_Disable extends Component {
   state = {
     disabled: true,
   };
-  handleChange = (e) => {
+  onChangehandle = (e) => {
     if (e.target.value.lenght >= 6) {
       this.setState({
         disabled: false,
@@ -20,7 +20,11 @@ class Enable_Disable extends Component {
     return (
       <div>
         <form>
-          <input type="text" placeholder="ENTER" onChange={this.handleChange} />
+          <input
+            type="text"
+            placeholder="ENTER"
+            onChange={this.onChangehandle}
+          />
           <br />
           <button disabled={this.state.disabled}>SUBMIT</button>
         </form>
