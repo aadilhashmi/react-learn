@@ -10,7 +10,7 @@ class EnableDisable extends Component {
         disabled: false,
       });
     } else {
-      this.state({
+      this.setState({
         disabled: true,
       });
     }
