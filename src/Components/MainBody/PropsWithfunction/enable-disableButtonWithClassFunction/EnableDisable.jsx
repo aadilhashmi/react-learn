@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 class EnableDisable extends Component {
+    state = {
+        disable: true;
+    }
   render() {
     return (
       <div>
@@ -8,7 +11,7 @@ class EnableDisable extends Component {
           <input type="text" placeholder="ENTER" onChange={this.handleChange} />
           <br />
           <br />
-          <button>SUBMIT</button>
+          <button disabled= {this.state.disable}>SUBMIT</button>
         </form>
       </div>
     );
