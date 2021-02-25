@@ -8,10 +8,13 @@ const FetchingDataFromReduxParent = () => {
   const selector = useSelector(getAllGroups);
   const [groupData, setGroupData] = useState();
   const [addNewGroup, setAddNewGroup] = useState();
+  const dispatch = useDispatch;
   useEffect(() => {
     setGroupData(selector);
   }, [selector]);
-  const 
+  const handleNewGroup = () => {
+    dispatch;
+  };
   return (
     <>
       <div>
