@@ -10,14 +10,19 @@ const FetchingDataFromReduxParent = () => {
     setGroupData(selector);
   }, [selector]);
   return (
-    <div>
-      {groupData &&
-        groupData.map((fetchData) => {
-          return (
-            <FetchingDataFromReduxChild Data={fetchData} key={fetchData.id} />
-          );
-        })}
-    </div>
+    <>
+      <div>
+        {groupData &&
+          groupData.map((fetchData) => {
+            return (
+              <FetchingDataFromReduxChild Data={fetchData} key={fetchData.id} />
+            );
+          })}
+      </div>
+      <div>
+        <input type="text" /> <button>ADDGROUP</button>
+      </div>
+    </>
   );
 };
 
