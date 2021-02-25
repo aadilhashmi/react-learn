@@ -15,6 +15,7 @@ const FetchingDataFromReduxChild = ({ Data }) => {
         alt="Error"
       />
       <h1>{Data.name}</h1>
+      <h5>{Data.desc}</h5>
     </div>
   );
 };
