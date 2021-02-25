@@ -76,6 +76,8 @@ const StudentsAdmissionForm = () => {
             <th>Total Fee Amount</th>
             <th>Year/Sem</th>
             <th colSpan="2">Management /Convener</th>
+            <td>Reimbursement</td>
+            <td>Due Amount</td>
             <th>No. of Credits</th>
             <th>Signature of receiver</th>
           </tr>
@@ -84,8 +86,8 @@ const StudentsAdmissionForm = () => {
           <td>1</td>
           <td></td>
           <td></td>
-          <td>Reimbursement</td>
-          <td>Due Amount</td>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
         </tr>
