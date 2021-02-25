@@ -8,12 +8,11 @@ const StudentsAdmissionForm = () => {
         <h2 className="head">DECLARATION BY THE STUDENT/PARENT</h2>
         <p className="adm-form">
           Name of Exam.
-          :..........................................................................
-          I
+          <input className="ExamName" type="text" />
         </p>
         <ul>
           <li>
-            declare that the above information is correct and that I have read
+            I declare that the above information is correct and that I have read
             all the rules and regulations of the College and the University to
             which I will abide during the studentship
           </li>
@@ -70,6 +69,45 @@ const StudentsAdmissionForm = () => {
       <div>
         <h3 className="fee-p">Fee Particulars Details</h3>
       </div>
+      <table>
+        <tr>
+          <th>Sl.No</th>
+          <th>Total Fee Amount</th>
+          <th>Year/Sem</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <input type="text" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
     </>
   );
 };

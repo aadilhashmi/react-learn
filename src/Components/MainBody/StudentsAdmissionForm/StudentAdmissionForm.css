@@ -2,6 +2,10 @@
   text-align: justify;
   font-family: ubuntu;
 }
+.ExamName {
+  border: none;
+  border-bottom: dotted;
+}
 .head {
   background-color: aquamarine;
   color: black;
@@ -26,4 +30,11 @@
 }
 .fee-p {
   text-align: center;
+}
+th {
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
 }
