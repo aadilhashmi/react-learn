@@ -54,6 +54,10 @@ const StudentsAdmissionForm = () => {
           </li>
         </ul>
         <h5 className="second-Head">Your Obediently</h5>
+        <br />
+        <br />
+        <h5 className="sig-parent">Signature of the Parent</h5>
+        <h5 className="sig-student">Signature of the Students </h5>
       </div>
     </>
   );
