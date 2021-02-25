@@ -7,13 +7,13 @@ import { useDispatch } from "react-redux";
 const FetchingDataFromReduxParent = () => {
   const selector = useSelector(getAllGroups);
   const [groupData, setGroupData] = useState();
-  const [addNewGroup, setAddNewGroup] = useState();
+  const [addNewGroups, setAddNewGroup] = useState();
   const dispatch = useDispatch;
   useEffect(() => {
     setGroupData(selector);
   }, [selector]);
   const handleNewGroup = () => {
-    dispatch;
+    dispatch = addNewGroup(addNewGroups);
   };
   return (
     <>
