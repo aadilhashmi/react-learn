@@ -26,7 +26,7 @@ class Enable_Disable extends Component {
             onChange={this.onChangehandle}
           />
           <br />
-          <button disabled={this.state.disabled}>SUBMIT</button>
+          <button disabled={this.state.disabled}>Submit</button>
         </form>
       </div>
     );
