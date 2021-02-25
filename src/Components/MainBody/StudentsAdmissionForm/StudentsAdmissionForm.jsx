@@ -67,6 +67,9 @@ const StudentsAdmissionForm = () => {
         <p className="dotted"></p>
       </div>
       {/* fee particular details coding starts from here */}
+      <div>
+        <h3 className="fee-p">Fee Particulars Details</h3>
+      </div>
     </>
   );
 };
