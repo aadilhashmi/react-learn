@@ -70,16 +70,23 @@ const StudentsAdmissionForm = () => {
         <h3 className="fee-p">Fee Particulars Details</h3>
       </div>
       <table>
-        <tr>
-          <th>Sl.No</th>
-          <th>Total Fee Amount</th>
-          <th>Year/Sem</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>Sl.No</th>
+            <th>Total Fee Amount</th>
+            <th>Year/Sem</th>
+            <th colSpan="2">Management /Convener</th>
+            <th>No. of Credits</th>
+            <th>Signature of receiver</th>
+          </tr>
+        </thead>
         <tr>
           <td>1</td>
-          <td>
-            <input type="text" />
-          </td>
+          <td></td>
+          <td></td>
+          <td>Reimbursement</td>
+          <td>Due Amount</td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
