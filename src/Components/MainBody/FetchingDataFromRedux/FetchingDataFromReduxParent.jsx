@@ -3,6 +3,7 @@ import FetchingDataFromReduxChild from "./FetchingDataFromReduxChild";
 import { useSelector } from "react-redux";
 import { getAllGroups } from "../../../State/selectors/groupSelector";
 import { useDispatch } from "react-redux";
+import { addNewGroup } from "../../../State/Action/groupAction";
 
 const FetchingDataFromReduxParent = () => {
   const selector = useSelector(getAllGroups);
@@ -13,7 +14,7 @@ const FetchingDataFromReduxParent = () => {
     setGroupData(selector);
   }, [selector]);
   const handleNewGroup = () => {
-    dispatch = addNewGroup(addNewGroups);
+    dispatch(addNewGroup(addNewGroups));
   };
   return (
     <>
