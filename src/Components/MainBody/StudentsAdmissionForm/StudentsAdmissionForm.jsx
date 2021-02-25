@@ -57,10 +57,16 @@ const StudentsAdmissionForm = () => {
         <br />
         <br />
         <br />
-
         <h5 className="sig-parent">Signature of the Parent</h5>
         <h5 className="sig-student">Signature of the Students </h5>
       </div>
+      <br />
+      <br />
+      <br />
+      <div>
+        <p className="dotted"></p>
+      </div>
+      {/* fee particular details coding starts from here */}
     </>
   );
 };
