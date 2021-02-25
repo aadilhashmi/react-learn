@@ -33,7 +33,25 @@ const StudentsAdmissionForm = () => {
             regular student of a recognized institution. In all matters, the
             rules & regulations related to the institution
           </li>
+          <li>
+            I solemnly declare that the statements made in this application are
+            true to the best of my knowledge and belief. I clearly understand
+            that if any of the statement is subsequently found to be untrue. I
+            will render myself liable to immediate emoval from the college and I
+            may be prosecuted.
+          </li>
+          <li>
+            I do hereby solemnly state that I had carefully read the Rules and
+            Regulations stipulated by the college in the prospectus, and I agree
+            to abide by them. In case I violate any of the rules of conduct,
+            discipline, attendance etc., ⮚ In case of any misbehavior on my
+            part, the Principal/Correspondent may cancel take any action on me
+            without any prior intimation. I promise to maintain 75% of
+            attendance, otherwise college can take any action on me. Yours
+            obediently
+          </li>
         </ul>
+        <h5 className="second-Head">Your Obediently</h5>
       </div>
     </>
   );
