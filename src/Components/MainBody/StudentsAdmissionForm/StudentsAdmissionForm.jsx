@@ -76,15 +76,14 @@ const StudentsAdmissionForm = () => {
             <th>Total Fee Amount</th>
             <th>Year/Sem</th>
             <th colSpan="2">Management /Convener</th>
-
             <th>No. of Credits</th>
             <th>Signature of receiver</th>
           </tr>
         </thead>
         <tr>
           <td>1</td>
-          <td>I</td>
           <td></td>
+          <td>I</td>
           <td>Reimbursement</td>
           <td>Due Amount</td>
           <td></td>
@@ -92,8 +91,8 @@ const StudentsAdmissionForm = () => {
         </tr>
         <tr>
           <td>2</td>
-          <td rowSpan="2">II/I</td>
-          <td></td>
+          <td rowSpan="2"></td>
+          <td>II/I</td>
           <td></td>
           <td></td>
           <td></td>
@@ -110,8 +109,8 @@ const StudentsAdmissionForm = () => {
         </tr>
         <tr>
           <td>4</td>
-          <td>III/I</td>
           <td></td>
+          <td>III/I</td>
           <td></td>
           <td></td>
           <td></td>
@@ -119,8 +118,8 @@ const StudentsAdmissionForm = () => {
         </tr>
         <tr>
           <td>5</td>
-          <td>III/II</td>
           <td></td>
+          <td>III/II</td>
           <td></td>
           <td></td>
           <td></td>
@@ -128,8 +127,8 @@ const StudentsAdmissionForm = () => {
         </tr>
         <tr>
           <td>6</td>
-          <td rowSpan="2">IV/I</td>
-          <td></td>
+          <td rowSpan="2"></td>
+          <td>IV/I</td>
           <td></td>
           <td></td>
           <td></td>
