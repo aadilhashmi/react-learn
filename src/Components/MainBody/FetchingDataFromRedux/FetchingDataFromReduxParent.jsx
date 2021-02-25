@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
 import FetchingDataFromReduxChild from "./FetchingDataFromReduxChild";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { getAllGroups } from "../../../State/selectors/groupSelector";
-import { useDispatch } from "react-redux";
 import { addNewGroup } from "../../../State/Action/groupAction";
 
 const FetchingDataFromReduxParent = () => {
-  const selector = useSelector(getAllGroups);
   const [groupData, setGroupData] = useState();
   const [addNewGroups, setAddNewGroup] = useState();
+  const selector = useSelector(getAllGroups);
   const dispatch = useDispatch;
   useEffect(() => {
     setGroupData(selector);
