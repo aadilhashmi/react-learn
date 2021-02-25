@@ -18,7 +18,7 @@ const StudentsAdmissionForm = () => {
             which I will abide during the studentship
           </li>
           <li>
-            ⮚ I declare that I have not been convicted for any criminal offence.
+            I declare that I have not been convicted for any criminal offence.
             No criminal case or proceeding is presently pending against me in
             any court of law. I have not resorted to any act of indiscipline
             during the previous years.
@@ -44,11 +44,13 @@ const StudentsAdmissionForm = () => {
             I do hereby solemnly state that I had carefully read the Rules and
             Regulations stipulated by the college in the prospectus, and I agree
             to abide by them. In case I violate any of the rules of conduct,
-            discipline, attendance etc., ⮚ In case of any misbehavior on my
-            part, the Principal/Correspondent may cancel take any action on me
-            without any prior intimation. I promise to maintain 75% of
-            attendance, otherwise college can take any action on me. Yours
-            obediently
+            discipline, attendance etc.,
+          </li>
+          <li>
+            In case of any misbehavior on my part, the Principal/Correspondent
+            may cancel take any action on me without any prior intimation. I
+            promise to maintain 75% of attendance, otherwise college can take
+            any action on me. Yours obediently
           </li>
         </ul>
         <h5 className="second-Head">Your Obediently</h5>
