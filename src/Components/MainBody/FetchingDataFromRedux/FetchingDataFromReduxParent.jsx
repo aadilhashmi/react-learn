@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import FetchingDataFromReduxChild from "./FetchingDataFromReduxChild";
 import { useSelector } from "react-redux";
 import { getAllGroups } from "../../../State/selectors/groupSelector";
+import { useDispatch } from "react-redux";
 
 const FetchingDataFromReduxParent = () => {
   const selector = useSelector(getAllGroups);
@@ -10,6 +11,7 @@ const FetchingDataFromReduxParent = () => {
   useEffect(() => {
     setGroupData(selector);
   }, [selector]);
+  const 
   return (
     <>
       <div>
@@ -21,8 +23,8 @@ const FetchingDataFromReduxParent = () => {
           })}
       </div>
       <div>
-        <input type="text" />{" "}
-        <button onChange={(e)=>}>ADDGROUP</button>
+        <input type="text" onChange={(e) => setAddNewGroup(e.target.value)} />
+        <button onClick={handleNewGroup}>ADDGROUP</button>
       </div>
     </>
   );
