@@ -14,35 +14,37 @@ import FetchingDataFromReduxParent from "../MainBody/FetchingDataFromRedux/Fetch
 import FetchingEmployeParent from "../MainBody/FetchingEmployeData/FetchingEmployeParent";
 import FetchingUserParent from "../MainBody/FetchingUserDataFromRedux/FetchingUserParent";
 import Enable_Disable from "../MainBody/PropsWithClassComponent/enable-disableButtonWithClassFunction/Enable_Disable";
+import StudentsAdmissionForm from "../MainBody/StudentsAdmissionForm/StudentsAdmissionForm";
 
 const HeaderSection = () => {
   return (
     <React.Fragment>
       <div>
-        <Row>
-          <Col>
-            {/* amjad sir class tutorial */}
-            <ClassMates />
-          </Col>
-          <Col>
-            {/* class components */}
-            <PropsWithClassParent />
-          </Col>
-        </Row>
+        {/* <Row> */}
+        {/* <Col> */}
+        {/* amjad sir class tutorial */}
+        {/* <ClassMates /> */}
+        {/* </Col> */}
+        {/* <Col> */}
+        {/* class components */}
+        {/* <PropsWithClassParent /> */}
+        {/* </Col> */}
+        {/* </Row> */}
         {/* funtion components */}
-        <Parent />
+        {/* <Parent /> */}
         {/* react binding tutorial */}
-        <ParentBind />
+        {/* <ParentBind /> */}
         {/* usestate on click on change  tutorial starts  */}
-        <UseStateParentFunc />
-        <UseStateParentPractice />
-        <InlineCss />
-        <MapingPrent />
-        <FetchingDataFromJsonParent />
-        <FetchingDataFromReduxParent />
-        <FetchingEmployeParent />
-        <FetchingUserParent />
-        <Enable_Disable />
+        {/* <UseStateParentFunc /> */}
+        {/* <UseStateParentPractice /> */}
+        {/* <InlineCss /> */}
+        {/* <MapingPrent /> */}
+        {/* <FetchingDataFromJsonParent /> */}
+        {/* <FetchingDataFromReduxParent /> */}
+        {/* <FetchingEmployeParent /> */}
+        {/* <FetchingUserParent /> */}
+        {/* <Enable_Disable /> */}
+        <StudentsAdmissionForm />
       </div>
     </React.Fragment>
   );
