@@ -6,6 +6,7 @@ import { getAllGroups } from "../../../State/selectors/groupSelector";
 const FetchingDataFromReduxParent = () => {
   const selector = useSelector(getAllGroups);
   const [groupData, setGroupData] = useState();
+  const [addNewGroup, setAddNewGroup] = useState();
   useEffect(() => {
     setGroupData(selector);
   }, [selector]);
@@ -20,7 +21,8 @@ const FetchingDataFromReduxParent = () => {
           })}
       </div>
       <div>
-        <input type="text" /> <button>ADDGROUP</button>
+        <input type="text" />{" "}
+        <button onChange={(e)=>}>ADDGROUP</button>
       </div>
     </>
   );
