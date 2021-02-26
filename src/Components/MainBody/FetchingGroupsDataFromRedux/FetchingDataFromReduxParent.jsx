@@ -7,7 +7,6 @@ import { addNewGroup } from "../../../State/Action/groupAction";
 const FetchingDataFromReduxParent = () => {
   const [groupData, setGroupData] = useState(); //second step
   const selector = useSelector(getAllGroups); //first step
-
   useEffect(() => {
     //THIRD STEP
     setGroupData(selector);
@@ -15,8 +14,10 @@ const FetchingDataFromReduxParent = () => {
 
   const [storedDataFromInputBox, setstoredDataFromInputBox] = useState();
   const dispatch = useDispatch();
-  dispatch(addNewGroup(storedDataFromInputBox));
-  const handleNewGroup = () => {};
+  const handleNewGroup = () => {
+    dispatch(addNewGroup(storedDataFromInputBox));
+    console.log("stored dta====>", storedDataFromInputBox);
+  };
 
   return (
     <>

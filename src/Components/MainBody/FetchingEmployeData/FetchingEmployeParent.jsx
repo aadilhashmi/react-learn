@@ -13,12 +13,8 @@ const FetchingEmployeParent = () => {
     <div>
       {EmployeData &&
         EmployeData.map((fetchEmpData) => {
-          return (
-            <FetchingEmployeChild
-              EmpData={fetchEmpData}
-              key={fetchEmpData.id}
-            />
-          );
+          console.log("empDataaa==>", fetchEmpData);
+          return <FetchingEmployeChild EmpData={fetchEmpData} />;
         })}
     </div>
   );
