@@ -1,6 +1,5 @@
 .adm-form {
   text-align: justify;
-  font-family: ubuntu;
 }
 .ExamName {
   border: none;
@@ -8,7 +7,7 @@
   outline: none;
 }
 .head {
-  background-color: aquamarine;
+  background-color: rgba(112, 153, 42, 0.616);
   color: black;
 }
 .second-Head {
@@ -32,18 +31,18 @@
 .fee-p {
   text-align: center;
 }
-table {
+.fee-table {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
 }
-th {
-  background-color: aquamarine;
+.fee-tableHead {
+  background-color: rgba(112, 153, 42, 0.616);
   border: 1px solid black;
   padding: 15px;
 }
 
-td {
+.fee-tableData {
   border: 1px solid black;
   padding: 15px;
 }
@@ -51,4 +50,7 @@ td {
   border: none;
   border-bottom: none;
   outline: none;
+}
+.sub-head {
+  float: right;
 }

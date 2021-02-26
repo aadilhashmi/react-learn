@@ -69,137 +69,153 @@ const StudentsAdmissionForm = () => {
       <div>
         <h3 className="fee-p">Fee Particulars Details</h3>
       </div>
-      <table>
+      <table className="fee-table">
         <thead>
-          <tr>
-            <th>Sl.No</th>
-            <th>Total Fee Amount</th>
-            <th>Year/Sem</th>
-            <th colSpan="2">Management /Convener</th>
-            <th>No. of Credits</th>
-            <th>Signature of receiver</th>
+          {/* table head */}
+          <tr className="fee-tableRow">
+            <th className="fee-tableHead">Sl.No</th>
+            <th className="fee-tableHead">Total Fee Amount</th>
+            <th className="fee-tableHead">Year/Sem</th>
+            <th className="fee-tableHead" colSpan="2">
+              Management /Convener
+            </th>
+            <th className="fee-tableHead">No. of Credits</th>
+            <th className="fee-tableHead">Signature of receiver</th>
           </tr>
         </thead>
-        <tr>
-          <td>1</td>
-          <td>
+        {/* table data  1*/}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">1</td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>I</td>
-          <td>Reimbursement</td>
+          <td className="fee-tableData">I</td>
+          <td className="fee-tableData">Reimbursement</td>
           <td>Due Amount</td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td rowSpan="2">
-            <input className="table-input" type="text" />
-          </td>
-          <td>II/I</td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
         </tr>
-        <tr>
-          <td>3</td>
+
+        {/* table data 2 */}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">2</td>
+          <td rowSpan="2" className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">II/I</td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+        </tr>
+
+        {/* table data 3 */}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">3</td>
           <td>II/II</td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>III/I</td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>
-            <input className="table-input" type="text" />
-          </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
         </tr>
-        <tr>
-          <td>5</td>
+
+        {/* table data 4 */}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">4</td>
           <td>
             <input className="table-input" type="text" />
           </td>
-          <td>III/II</td>
-          <td>
+          <td className="fee-tableData">III/I</td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
         </tr>
-        <tr>
-          <td>6</td>
+
+        {/* table data 5 */}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">5</td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">III/II</td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+          <td className="fee-tableData">
+            <input className="table-input" type="text" />
+          </td>
+        </tr>
+
+        {/* table data 6 */}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">6</td>
           <td rowSpan="2">
             <input className="table-input" type="text" />
           </td>
-          <td>IV/I</td>
-          <td>
+          <td className="fee-tableData">IV/I</td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
         </tr>
-        <tr>
-          <td>7</td>
+
+        {/* table data 7 */}
+        <tr className="fee-tableRow">
+          <td className="fee-tableData">7</td>
           <td>IV/II</td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
-          <td>
+          <td className="fee-tableData">
             <input className="table-input" type="text" />
           </td>
         </tr>
