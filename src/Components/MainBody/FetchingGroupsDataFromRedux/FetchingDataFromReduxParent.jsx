@@ -2,21 +2,20 @@ import React, { useEffect, useState } from "react";
 import FetchingDataFromReduxChild from "./FetchingDataFromReduxChild";
 import { useSelector, useDispatch } from "react-redux";
 import { getAllGroups } from "../../../State/selectors/groupSelector";
-import { addNewGroup } from "../../../State/Action/groupAction";
 
 const FetchingDataFromReduxParent = () => {
-  const [groupData, setGroupData] = useState();
-  const [addNewGroups, setAddNewGroup] = useState();
-  const selector = useSelector(getAllGroups);
-  const dispatch = useDispatch;
+  const [groupData, setGroupData] = useState(); //second step
+  const selector = useSelector(getAllGroups); //first step
+  console.log("testing......", selector);
   useEffect(() => {
     setGroupData(selector);
   }, [selector]);
-  const handleNewGroup = () => {
-    dispatch(addNewGroup(addNewGroups));
-  };
   return (
     <>
+      <div>
+        <input type="text" />
+        <button>ADDGROUP</button>
+      </div>
       <div>
         {groupData &&
           groupData.map((fetchData) => {
@@ -24,10 +23,6 @@ const FetchingDataFromReduxParent = () => {
               <FetchingDataFromReduxChild Data={fetchData} key={fetchData.id} />
             );
           })}
-      </div>
-      <div>
-        <input type="text" onChange={(e) => setAddNewGroup(e.target.value)} />
-        <button onClick={handleNewGroup}>ADDGROUP</button>
       </div>
     </>
   );
