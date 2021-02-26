@@ -5,6 +5,7 @@
 .ExamName {
   border: none;
   border-bottom: dotted;
+  outline: none;
 }
 .head {
   background-color: aquamarine;
@@ -45,4 +46,9 @@ th {
 td {
   border: 1px solid black;
   padding: 15px;
+}
+.table-input {
+  border: none;
+  border-bottom: none;
+  outline: none;
 }

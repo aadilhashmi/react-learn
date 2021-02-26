@@ -82,66 +82,121 @@ const StudentsAdmissionForm = () => {
         </thead>
         <tr>
           <td>1</td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
           <td>I</td>
           <td>Reimbursement</td>
           <td>Due Amount</td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
         </tr>
         <tr>
           <td>2</td>
           <td rowSpan="2"></td>
           <td>II/I</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
         </tr>
         <tr>
           <td>3</td>
           <td>II/II</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
         </tr>
         <tr>
           <td>4</td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
           <td>III/I</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
         </tr>
         <tr>
           <td>5</td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
           <td>III/II</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+            <input className="table-input" type="text" />
+          </td>
           <td></td>
         </tr>
         <tr>
           <td>6</td>
           <td rowSpan="2"></td>
           <td>IV/I</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
         </tr>
         <tr>
           <td>7</td>
           <td>IV/II</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
+          <td>
+            <input className="table-input" type="text" />
+          </td>
         </tr>
       </table>
     </>
