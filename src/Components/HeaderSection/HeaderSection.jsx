@@ -20,31 +20,25 @@ const HeaderSection = () => {
   return (
     <React.Fragment>
       <div>
-        {/* <Row> */}
-        {/* <Col> */}
         {/* amjad sir class tutorial */}
-        {/* <ClassMates /> */}
-        {/* </Col> */}
-        {/* <Col> */}
+        <ClassMates />
         {/* class components */}
-        {/* <PropsWithClassParent /> */}
-        {/* </Col> */}
-        {/* </Row> */}
+        <PropsWithClassParent />
         {/* funtion components */}
-        {/* <Parent /> */}
+        <Parent />
         {/* react binding tutorial */}
-        {/* <ParentBind /> */}
+        <ParentBind />
         {/* usestate on click on change  tutorial starts  */}
-        {/* <UseStateParentFunc /> */}
-        {/* <UseStateParentPractice /> */}
-        {/* <InlineCss /> */}
-        {/* <MapingPrent /> */}
-        {/* <FetchingDataFromJsonParent /> */}
-        {/* <FetchingDataFromReduxParent /> */}
-        {/* <FetchingEmployeParent /> */}
-        {/* <FetchingUserParent /> */}
+        <UseStateParentFunc />
+        <UseStateParentPractice />
+        <InlineCss />
+        <MapingPrent />
+        <FetchingDataFromJsonParent />
+        <FetchingDataFromReduxParent />
+        <FetchingEmployeParent />
+        <FetchingUserParent />
         {/* <Enable_Disable /> */}
-        <StudentsAdmissionForm />
+        {/* <StudentsAdmissionForm /> */}
       </div>
     </React.Fragment>
   );
