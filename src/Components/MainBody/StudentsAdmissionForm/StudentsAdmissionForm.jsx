@@ -97,7 +97,9 @@ const StudentsAdmissionForm = () => {
         </tr>
         <tr>
           <td>2</td>
-          <td rowSpan="2"></td>
+          <td rowSpan="2">
+            <input className="table-input" type="text" />
+          </td>
           <td>II/I</td>
           <td>
             <input className="table-input" type="text" />
@@ -161,13 +163,16 @@ const StudentsAdmissionForm = () => {
           </td>
           <td>
             <input className="table-input" type="text" />
+          </td>
+          <td>
             <input className="table-input" type="text" />
           </td>
-          <td></td>
         </tr>
         <tr>
           <td>6</td>
-          <td rowSpan="2"></td>
+          <td rowSpan="2">
+            <input className="table-input" type="text" />
+          </td>
           <td>IV/I</td>
           <td>
             <input className="table-input" type="text" />
