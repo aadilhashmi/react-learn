@@ -1,12 +1,9 @@
-.body {
+/* .body {
   border: 2px solid black;
   width: 95%;
   margin-left: 50px;
   border-radius: 5px 5px 10px;
-}
-.conatiner1 {
-  height: ;
-}
+} */
 .logo {
   /* display: flex; */
   position: relative;
@@ -43,13 +40,8 @@
 }
 .signature {
   text-align: center;
-  margin-right: -46rem;
+  margin-right: -14rem;
   margin-top: -24px;
-}
-
-.pass-porto {
-  /* margin-top: -305px; */
-  margin-left: -3rem;
 }
 
 .container2 {
@@ -61,29 +53,28 @@
   height: 290px;
 }
 .pic {
-  margin-left: 65rem;
+  float: right;
+  margin-right: 65px;
+  margin-top: 45px;
   border: 2px solid black;
-  height: 265px;
-  width: 200px;
+  height: 200px;
+  width: 150px;
   text-align: center;
 }
 .Admisson {
-  margin-left: 5rem;
   background-color: #a4c561;
 }
 .Add {
   margin: 0%;
 }
 .Letter {
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
   font-size: small;
   margin-top: 0;
 }
-.Details {
-  margin-left: 5rem;
-}
+
 .Type-of {
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
 }
 
 .header_content h2 {

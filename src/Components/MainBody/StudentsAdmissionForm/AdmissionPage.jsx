@@ -3,7 +3,7 @@ import "./Form.css";
 
 const AdmissionPage = () => {
   return (
-    <div className="body">
+    <>
       {/* HEADER SECTION */}
       <div className="header_content">
         <img
@@ -28,6 +28,12 @@ const AdmissionPage = () => {
       {/* for office use only container */}
 
       <div className="conatiner1">
+        {/* pasport photo */}
+        <h3 className="pic">
+          Passport <br />
+          Size
+          <br /> Photo
+        </h3>
         <div className="container2">
           <div className="container_content">
             <h6>
@@ -35,6 +41,7 @@ const AdmissionPage = () => {
             </h6>
             <h6>For Payment details (details of DD/Pay Order)</h6>
           </div>
+
           <div className="for_office_useOnly">
             <label>1.DD.No</label>
             <input type="text" className="border-1" />
@@ -68,15 +75,7 @@ const AdmissionPage = () => {
               Signature <br />
               Officer Incharge of Addmission Counter
             </h6>
-
-            {/* PHOTO SECTION */}
           </div>
-
-          <h3 className="pic">
-            Passport <br />
-            Size
-            <br /> Photo
-          </h3>
         </div>
 
         {/* ADDMISSION DETAILS SECTION  */}
@@ -203,7 +202,7 @@ const AdmissionPage = () => {
           </h6>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
