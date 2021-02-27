@@ -1,0 +1,91 @@
+.body {
+  border: 2px solid black;
+  width: 95%;
+  margin-left: 50px;
+  border-radius: 5px 5px 10px;
+}
+.conatiner1 {
+  height: ;
+}
+.logo {
+  /* display: flex; */
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-left: 14rem;
+  top: 2rem;
+  border-radius: 50%;
+}
+.header_content {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  text-align: center;
+}
+.text_color {
+  color: rgb(209, 49, 49);
+  /* margin-top: -1rem; */
+}
+.color {
+  color: rgb(245, 98, 45);
+}
+
+.border-1 {
+  border: none;
+  border-bottom: 2px dotted black;
+  outline: none;
+}
+.container_content {
+  text-align: center;
+}
+.for_office_useOnly {
+  margin-left: 20px;
+}
+.signature {
+  text-align: center;
+  margin-right: -46rem;
+  margin-top: -24px;
+}
+
+.pass-porto {
+  /* margin-top: -305px; */
+  margin-left: -3rem;
+}
+
+.container2 {
+  margin: 2rem;
+  margin-right: 29rem;
+  border: 2px solid black;
+  margin-left: 5rem;
+  width: 75%;
+  height: 290px;
+}
+.pic {
+  margin-left: 65rem;
+  border: 2px solid black;
+  height: 265px;
+  width: 200px;
+  text-align: center;
+}
+.Admisson {
+  margin-left: 5rem;
+  background-color: #a4c561;
+}
+.Add {
+  margin: 0%;
+}
+.Letter {
+  margin-left: 4rem;
+  font-size: small;
+  margin-top: 0;
+}
+.Details {
+  margin-left: 5rem;
+}
+.Type-of {
+  margin-left: 5rem;
+}
+
+.header_content h2 {
+  margin-top: -1rem;
+}
