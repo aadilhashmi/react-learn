@@ -4,6 +4,8 @@ import "./Form.css";
 const AdmissionPage = () => {
   return (
     <>
+      <button onClick={() => window.print()}>PRINT</button>
+
       {/* HEADER SECTION */}
       <div className="header_content">
         <img
