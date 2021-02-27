@@ -45,6 +45,9 @@
   width: 75%;
   height: 290px;
 }
+.conatiner1 {
+  margin-left: 5px;
+}
 .pic {
   float: right;
   margin-right: 65px;
