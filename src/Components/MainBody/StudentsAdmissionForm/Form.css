@@ -1,11 +1,4 @@
-/* .body {
-  border: 2px solid black;
-  width: 95%;
-  margin-left: 50px;
-  border-radius: 5px 5px 10px;
-} */
 .logo {
-  /* display: flex; */
   position: relative;
   height: 150px;
   width: 150px;
@@ -75,8 +68,7 @@
 
 /* .Type-of {
   /* margin-left: 5rem; */
-} */
-
-.header_content h2 {
+/* } */
+*/ .header_content h2 {
   margin-top: -1rem;
 }
