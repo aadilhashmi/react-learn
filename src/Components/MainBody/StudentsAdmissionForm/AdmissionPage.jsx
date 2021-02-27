@@ -118,7 +118,6 @@ const AdmissionPage = () => {
 
         <div>
           <h5 className="Type-of">
-            {" "}
             Type of Admission : Management/Convener/Spot
           </h5>
         </div>

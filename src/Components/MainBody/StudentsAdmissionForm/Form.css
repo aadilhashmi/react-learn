@@ -14,7 +14,6 @@
 }
 .text_color {
   color: rgb(209, 49, 49);
-  /* margin-top: -1rem; */
 }
 .color {
   color: rgb(245, 98, 45);
@@ -35,6 +34,7 @@
   text-align: center;
   margin-right: -14rem;
   margin-top: -24px;
+  margin-left: 65%;
 }
 
 .container2 {
@@ -61,14 +61,10 @@
   margin: 0%;
 }
 .Letter {
-  /* margin-left: 4rem; */
   font-size: small;
   margin-top: 0;
 }
 
-/* .Type-of {
-  /* margin-left: 5rem; */
-/* } */
-*/ .header_content h2 {
+.header_content h2 {
   margin-top: -1rem;
 }
