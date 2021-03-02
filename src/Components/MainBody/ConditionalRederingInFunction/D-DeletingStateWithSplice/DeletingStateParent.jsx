@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ConditionalRendringChild from "./DeletingStateChild";
+import DeletingStateChild from "./DeletingStateChild";
 
 const employe = [
   {
@@ -15,7 +15,7 @@ const employe = [
     job: " php developer",
   },
 ];
-const ConditionalRederingParent = () => {
+const DeletingStateParent = () => {
   const [employData, setEmployeData] = useState(employe);
 
   const handleDelete = (index) => {
@@ -27,10 +27,10 @@ const ConditionalRederingParent = () => {
     <div>
       <button onClick={handleDelete}>DELETE</button>
       {employData.map((fetchData, index) => {
-        return <ConditionalRendringChild passData={fetchData} />;
+        return <DeletingStateChild passData={fetchData} />;
       })}
     </div>
   );
 };
 
-export default ConditionalRederingParent;
+export default DeletingStateParent;
