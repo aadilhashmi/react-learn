@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import conditionalRendringChild from "./conditionalRendringChild";
+import ConditionalRendringChild from "./ConditionalRendringChild";
 
-const conditionalRederingParent = () => {
+const ConditionalRederingParent = () => {
   const [employData, setEmployeData] = useState({
     employe: [
       {
@@ -27,10 +27,10 @@ const conditionalRederingParent = () => {
     <div>
       <button onClick={handleDelete}>DELETE</button>
       {employData.employe.map((fetchData) => {
-        return <conditionalRendringChild passData={fetchData} />;
+        return <ConditionalRendringChild passData={fetchData} />;
       })}
     </div>
   );
 };
 
-export default conditionalRederingParent;
+export default ConditionalRederingParent;

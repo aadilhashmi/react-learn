@@ -1,6 +1,6 @@
 import React from "react";
 
-const conditionalRendringChild = ({ passData }) => {
+const ConditionalRendringChild = ({ passData }) => {
   return (
     <div>
       <h1>
@@ -10,4 +10,4 @@ const conditionalRendringChild = ({ passData }) => {
   );
 };
 
-export default conditionalRendringChild;
+export default ConditionalRendringChild;
