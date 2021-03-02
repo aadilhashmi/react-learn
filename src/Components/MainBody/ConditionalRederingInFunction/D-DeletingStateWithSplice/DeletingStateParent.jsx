@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ConditionalRendringChild from "./ConditionalRendringChild";
+import ConditionalRendringChild from "./DeletingStateChild";
 
 const employe = [
   {

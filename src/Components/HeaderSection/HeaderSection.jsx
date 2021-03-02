@@ -16,7 +16,7 @@ import FetchingUserParent from "../MainBody/FetchingUserDataFromRedux/FetchingUs
 import Enable_Disable from "../MainBody/PropsWithClassComponent/enable-disableButtonWithClassFunction/Enable_Disable";
 import StudentsAdmissionForm from "../MainBody/StudentsAdmissionForm/StudentsAdmissionForm";
 import AdmissionPage from "../MainBody/StudentsAdmissionForm/AdmissionPage";
-import ConditionalRederingParent from "../MainBody/ConditionalRederingInFunction/DeletingStateWithSplice/ConditionalRederingParent";
+import ConditionalRederingParent from "../MainBody/ConditionalRederingInFunction/D-DeletingStateWithSplice/DeletingStateParent";
 
 const HeaderSection = () => {
   return (
