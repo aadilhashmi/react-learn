@@ -1,9 +1,11 @@
 import React from "react";
 
-const conditionalRendringChild = () => {
+const conditionalRendringChild = ({ passData }) => {
   return (
     <div>
-      <h1> i am aadil hashmi</h1>
+      <h1>
+        i am {passData.name} profession {passData.job}
+      </h1>
     </div>
   );
 };
