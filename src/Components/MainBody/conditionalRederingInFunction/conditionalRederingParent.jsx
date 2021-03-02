@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const conditionalRederingParent = () => {
-    const 
+  const [employData, setEmployeData] = useState();
+  employe: [
+    {
+      name: "rizwan",
+      job: " php developer",
+    },
+  ];
   return <div></div>;
 };
 
