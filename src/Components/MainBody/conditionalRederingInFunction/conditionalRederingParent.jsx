@@ -19,7 +19,10 @@ const conditionalRederingParent = () => {
     ],
   });
 
-  const handleDelete = () => {};
+  const handleDelete = (index) => {
+    const newEmployeData = [...employData];
+    newEmployeData.splice(index, 1);
+  };
   return (
     <div>
       <button onClick={handleDelete}>DELETE</button>
