@@ -8,7 +8,12 @@ const CondRendF_Parent = () => {
       { name: "aamer", age: 20 },
     ],
   });
-  return <div></div>;
+  return (
+    <div>
+      <p>1.Conditional Rendering</p>
+      <button>Conditional Rendering</button>
+    </div>
+  );
 };
 
 export default CondRendF_Parent;
