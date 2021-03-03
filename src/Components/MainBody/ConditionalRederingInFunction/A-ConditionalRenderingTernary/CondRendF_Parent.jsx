@@ -19,6 +19,7 @@ const CondRendF_Parent = () => {
       ],
     });
   };
+  const toggleUserHandler = () => {};
 
   return (
     <div>

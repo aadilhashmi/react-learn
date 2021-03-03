@@ -17,6 +17,7 @@ import Enable_Disable from "../MainBody/PropsWithClassComponent/enable-disableBu
 import StudentsAdmissionForm from "../MainBody/StudentsAdmissionForm/StudentsAdmissionForm";
 import AdmissionPage from "../MainBody/StudentsAdmissionForm/AdmissionPage";
 import ConditionalRederingParent from "../MainBody/ConditionalRederingInFunction/D-DeletingStateWithSplice/DeletingStateParent";
+import Module4Landing from "../MainBody/Module4Landing/Module4Landing";
 
 const HeaderSection = () => {
   return (
@@ -43,6 +44,7 @@ const HeaderSection = () => {
         {/* <AdmissionPage /> */}
         {/* <StudentsAdmissionForm /> */}
         <ConditionalRederingParent />
+        <Module4Landing />
       </div>
     </React.Fragment>
   );
