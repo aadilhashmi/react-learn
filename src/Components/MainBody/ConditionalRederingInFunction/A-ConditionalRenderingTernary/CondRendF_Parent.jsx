@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const CondRendF_Parent = () => {
+  const [UserData, setUserData] = useState({});
   return <div></div>;
 };
 
