@@ -6,7 +6,7 @@ const CondRendF_Child = (item) => {
       <h5>
         I am {item.name} and My Job is {item.age}
       </h5>
-      <input type="text" />
+      <input type="text" onChange={item.change} />
     </div>
   );
 };

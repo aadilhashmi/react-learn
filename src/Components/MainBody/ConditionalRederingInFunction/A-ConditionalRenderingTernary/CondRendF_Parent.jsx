@@ -3,6 +3,7 @@ import CondRendF_Child from "./CondRendF_Child";
 
 const CondRendF_Parent = () => {
   const [showData, setShowData] = useState(false);
+
   const [UserData, setUserData] = useState({
     user: [
       { name: "Salman", age: 23 },
@@ -23,6 +24,24 @@ const CondRendF_Parent = () => {
   const toggleUserHandler = () => {
     setShowData(!showData);
   };
+  const changeHandler = (e) => {
+    setUserData({
+      user: [
+        {
+          name: "Wow",
+          age: 22,
+        },
+        {
+          name: "Great",
+          age: 22,
+        },
+        {
+          name: e.target.value,
+          age: 22,
+        },
+      ],
+    });
+  };
 
   return (
     <div>
@@ -41,6 +60,7 @@ const CondRendF_Parent = () => {
           <CondRendF_Child
             name={UserData.user[2].name}
             age={UserData.user[2].age}
+            change={changeHandler}
           />
         </div>
       )}
