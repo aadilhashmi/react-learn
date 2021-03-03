@@ -23,9 +23,14 @@ const DeletingStateParent = () => {
     newEmployeData.splice(index, 1);
     setEmployeData(newEmployeData);
   };
+  const styleButton = {
+    backgroundColor: "pink",
+  };
   return (
     <div>
-      <button onClick={handleDelete}>DELETE</button>
+      <button onClick={handleDelete} style={styleButton}>
+        DELETE
+      </button>
       {employData.map((fetchData) => {
         return <DeletingStateChild passData={fetchData} />;
       })}
