@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CondRendF_Child from "./CondRendF_Child";
 
 const CondRendF_Parent = () => {
+  const [showData, setShowData] = useState(false);
   const [UserData, setUserData] = useState({
     user: [
       { name: "Salman", age: 23 },
@@ -19,27 +20,30 @@ const CondRendF_Parent = () => {
       ],
     });
   };
-  const toggleUserHandler = () => {};
+  const toggleUserHandler = () => {
+    setShowData(!showData);
+  };
 
   return (
     <div>
       <p>1.Conditional Rendering</p>
       <button onClick={toggleUserHandler}>Conditional Rendering</button>
-      <div>
-        <CondRendF_Child
-          name={UserData.user[0].name}
-          age={UserData.user[0].age}
-        />
-        <CondRendF_Child
-          name={UserData.user[1].name}
-          age={UserData.user[1].age}
-        />
-        <CondRendF_Child
-          name={UserData.user[2].name}
-          age={UserData.user[2].age}
-        />
-      </div>
-
+      {showData && (
+        <div>
+          <CondRendF_Child
+            name={UserData.user[0].name}
+            age={UserData.user[0].age}
+          />
+          <CondRendF_Child
+            name={UserData.user[1].name}
+            age={UserData.user[1].age}
+          />
+          <CondRendF_Child
+            name={UserData.user[2].name}
+            age={UserData.user[2].age}
+          />
+        </div>
+      )}
       <button onClick={switchNameHandler}>CHANGE STATE</button>
     </div>
   );
