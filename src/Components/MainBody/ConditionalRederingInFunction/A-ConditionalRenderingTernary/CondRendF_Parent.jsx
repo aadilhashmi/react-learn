@@ -13,9 +13,9 @@ const CondRendF_Parent = () => {
   const switchNameHandler = () => {
     setUserData({
       user: [
-        { name: "Node", age: 23 },
-        { name: "Backend", age: 24 },
-        { name: "UI", age: 25 },
+        { name: "AADIL", age: 23 },
+        { name: "KHAWJA", age: 24 },
+        { name: "MAZHAR", age: 25 },
       ],
     });
   };
