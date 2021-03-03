@@ -30,6 +30,14 @@ const CondRendF_Parent = () => {
           name={UserData.user[0].name}
           age={UserData.user[0].age}
         />
+        <CondRendF_Child
+          name={UserData.user[1].name}
+          age={UserData.user[1].age}
+        />
+        <CondRendF_Child
+          name={UserData.user[2].name}
+          age={UserData.user[2].age}
+        />
       </div>
 
       <button onClick={switchNameHandler}>CHANGE STATE</button>
