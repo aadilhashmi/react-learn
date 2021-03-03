@@ -25,14 +25,9 @@ const DeletingStateParent = () => {
   };
   return (
     <div>
-      <button onClick={myClick}>DELETE</button>
+      <button onClick={handleDelete}>DELETE</button>
       {employData.map((fetchData) => {
-        return (
-          <DeletingStateChild
-            passData={fetchData}
-            myClick={() => handleDelete(index)}
-          />
-        );
+        return <DeletingStateChild passData={fetchData} />;
       })}
     </div>
   );
