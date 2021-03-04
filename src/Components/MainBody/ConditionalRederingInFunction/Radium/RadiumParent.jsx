@@ -1,12 +1,7 @@
 import React from "react";
-import RadiumChild from "./RadiumChild";
 
 const RadiumParent = () => {
-  return (
-    <div>
-      <RadiumChild />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default RadiumParent;
