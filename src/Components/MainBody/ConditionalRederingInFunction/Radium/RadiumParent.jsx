@@ -1,5 +1,6 @@
 import React from "react";
-import Radium from "radium";
+import Radium, { StyleRoot } from "radium";
+import styled from "styled-components";
 
 const RadiumParent = () => {
   const styleButton = {
@@ -20,21 +21,29 @@ const RadiumParent = () => {
     left: "35%",
     top: "25%",
     textAlign: "center",
-    ":hover": {
-      backgroundColor: "yellow",
+
+    '@media(min-width:"500px")': {
+      color: "red",
     },
   };
+  const StyleButton = styled.button`
+    background-color: red;
+    color: black;
+  `;
   return (
-    <div style={styleDiv}>
-      <h1>hiiiiiiiiiiiiiii</h1>
-      <br />
-      <p>this is radium practice</p>
-      <br />
-      <i>first install radium :=== npm i radium --save</i>
-      <br />
-      <br />
-      <button style={styleButton}>Radium</button>
-    </div>
+    <StyleRoot>
+      <div style={styleDiv}>
+        <h1>hiiiiiiiiiiiiiii</h1>
+        <br />
+        <p>this is radium practice</p>
+        <br />
+        <i>first install radium :=== npm i radium --save</i>
+        <br />
+        <br />
+        <button style={styleButton}>Radium</button>
+      </div>
+      <StyleButton>aadil</StyleButton>
+    </StyleRoot>
   );
 };
 

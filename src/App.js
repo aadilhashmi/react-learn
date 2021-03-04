@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
 import { Landing } from "./Components/HomePage/Landing";
+import Radium, { StyleRoot } from "radium";
 function App() {
   return (
-    <React.Fragment>
-      <div className="App">
-        <Landing />
-      </div>
-    </React.Fragment>
+    <StyleRoot>
+      <React.Fragment>
+        <div className="App">
+          <Landing />
+        </div>
+      </React.Fragment>
+    </StyleRoot>
   );
 }
 
