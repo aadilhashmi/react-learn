@@ -13,12 +13,16 @@ const RadiumParent = () => {
   };
   const styleDiv = {
     backgroundColor: "rgba(0,0,0,0.3)",
-    width: "300px",
+    width: "400px",
+    height: "400px",
     borderRadius: "20px",
     position: "absolute",
-    left: "40%",
-    top: "40%",
+    left: "35%",
+    top: "25%",
     textAlign: "center",
+    ":hover": {
+      backgroundColor: "yellow",
+    },
   };
   return (
     <div style={styleDiv}>
