@@ -16,7 +16,7 @@ import FetchingUserParent from "../MainBody/FetchingUserDataFromRedux/FetchingUs
 import Enable_Disable from "../MainBody/PropsWithClassComponent/enable-disableButtonWithClassFunction/Enable_Disable";
 import StudentsAdmissionForm from "../MainBody/StudentsAdmissionForm/StudentsAdmissionForm";
 import AdmissionPage from "../MainBody/StudentsAdmissionForm/AdmissionPage";
-import ConditionalRederingParent from "../MainBody/ConditionalRederingInFunction/D-DeletingStateWithSplice/DeletingStateParent";
+
 import Module4Landing from "../MainBody/Module4Landing/Module4Landing";
 
 const HeaderSection = () => {
@@ -43,7 +43,7 @@ const HeaderSection = () => {
         {/* <Enable_Disable /> */}
         {/* <AdmissionPage /> */}
         {/* <StudentsAdmissionForm /> */}
-        <ConditionalRederingParent />
+
         <Module4Landing />
       </div>
     </React.Fragment>
