@@ -57,7 +57,10 @@ const RadiumParent = () => {
       <br />
       <br />
       <button style={styleButton}>Radium</button>
-    </div>
+      <MyH1>aaaadil</MyH1>
+      <MyButton>aaaadil</MyButton>
+      <MyAnchor>aaaadil</MyAnchor>
+    </div>HIO
 
     // </StyleRoot>
   );
