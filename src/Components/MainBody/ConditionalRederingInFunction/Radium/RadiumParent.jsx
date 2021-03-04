@@ -1,6 +1,25 @@
 import React from "react";
-import Radium, { StyleRoot } from "radium";
+// import Radium, { StyleRoot } from "radium";
+
 import styled from "styled-components";
+const MyH1 = styled.h1`
+  background-color: red;
+  &:hover {
+    background-color: green;
+  }
+`;
+const MyButton = styled.button`
+  background-color: red;
+  &:hover {
+    background-color: green;
+  }
+`;
+const MyAnchor = styled.a`
+  color: red;
+  &:hover {
+    background-color: green;
+  }
+`;
 
 const RadiumParent = () => {
   const styleButton = {
@@ -26,25 +45,22 @@ const RadiumParent = () => {
       color: "red",
     },
   };
-  const StyleButton = styled.button`
-    background-color: red;
-    color: black;
-  `;
+
   return (
-    <StyleRoot>
-      <div style={styleDiv}>
-        <h1>hiiiiiiiiiiiiiii</h1>
-        <br />
-        <p>this is radium practice</p>
-        <br />
-        <i>first install radium :=== npm i radium --save</i>
-        <br />
-        <br />
-        <button style={styleButton}>Radium</button>
-      </div>
-      <StyleButton>aadil</StyleButton>
-    </StyleRoot>
+    // <StyleRoot>
+    <div style={styleDiv}>
+      <h1>hiiiiiiiiiiiiiii</h1>
+      <br />
+      <p>this is radium practice</p>
+      <br />
+      <i>first install radium :=== npm i radium --save</i>
+      <br />
+      <br />
+      <button style={styleButton}>Radium</button>
+    </div>
+
+    // </StyleRoot>
   );
 };
 
-export default Radium(RadiumParent);
+export default RadiumParent;
