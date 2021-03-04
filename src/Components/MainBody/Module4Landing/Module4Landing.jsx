@@ -10,9 +10,6 @@ const Module4Landing = () => {
       {/* <CondRendF_Parent /> */}
       {/* <DeletingStateParent /> */}
       <RadiumParent />
-      <MyH1>aaaadil</MyH1>
-      <MyButton>aaaadil</MyButton>
-      <MyAnchor>aaaadil</MyAnchor>
     </>
   );
 };
