@@ -3,13 +3,15 @@ import CondRendF_Parent from "../ConditionalRederingInFunction/A-ConditionalRend
 import RadiumParent from "../ConditionalRederingInFunction/Radium/RadiumParent";
 import DeletingStateParent from "../ConditionalRederingInFunction/D-DeletingStateWithSplice/DeletingStateParent";
 import styled from "styled-components";
+import StyledCompParent from "../ConditionalRederingInFunction/Styled-Component/StyledCompParent";
 
 const Module4Landing = () => {
   return (
     <>
       {/* <CondRendF_Parent /> */}
       {/* <DeletingStateParent /> */}
-      <RadiumParent />
+      {/* <RadiumParent /> */}
+      <StyledCompParent />
     </>
   );
 };
