@@ -18,7 +18,8 @@ const FetchingEmployeChild = ({ EmpData }) => {
       };
   return (
       <Slider {...settings}>
-    <div>
+      <div>
+      
         <img src={EmpData.image} alt="" width="200px" height="200px" />
 
         <h1>{EmpData.name}</h1>
