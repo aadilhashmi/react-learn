@@ -18,6 +18,7 @@ import StudentsAdmissionForm from "../MainBody/StudentsAdmissionForm/StudentsAdm
 import AdmissionPage from "../MainBody/StudentsAdmissionForm/AdmissionPage";
 
 import Module4Landing from "../MainBody/Module4Landing/Module4Landing";
+import SlickCarousel from "../MainBody/React-Slick/SlickCarousel";
 
 const HeaderSection = () => {
   return (
@@ -38,13 +39,14 @@ const HeaderSection = () => {
         {/* <MapingPrent /> */}
         {/* <FetchingDataFromJsonParent /> */}
         {/* <FetchingDataFromReduxParent /> */}
-        <FetchingEmployeParent />
+        {/* <FetchingEmployeParent /> */}
         {/* <FetchingUserParent /> */}
         {/* <Enable_Disable /> */}
         {/* <AdmissionPage /> */}
         {/* <StudentsAdmissionForm /> */}
 
         {/* <Module4Landing /> */}
+        <SlickCarousel/>
       </div>
     </React.Fragment>
   );

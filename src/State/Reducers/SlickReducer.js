@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-const SlickReducer = {
+export const SlickReducer = {
   Employe: [
     {
       id: uuidv4(),
