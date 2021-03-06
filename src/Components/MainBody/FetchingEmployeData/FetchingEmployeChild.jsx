@@ -1,6 +1,7 @@
 import React from "react";
 import "./FecthingEmploye.css";
 
+
 const FetchingEmployeChild = ({ EmpData }) => {
   return (
     <div className="employe">

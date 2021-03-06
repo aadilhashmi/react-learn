@@ -11,7 +11,7 @@ const Module4Landing = () => {
       {/* <CondRendF_Parent /> */}
       {/* <DeletingStateParent /> */}
       {/* <RadiumParent /> */}
-      <StyledCompParent />
+      {/* <StyledCompParent /> */}
     </>
   );
 };
