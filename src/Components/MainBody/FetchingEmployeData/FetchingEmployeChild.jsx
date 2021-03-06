@@ -1,8 +1,5 @@
 import React from "react";
 import "./FecthingEmploye.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 
 
 const FetchingEmployeChild = ({ EmpData }) => {
