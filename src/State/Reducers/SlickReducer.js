@@ -20,5 +20,19 @@ export const SlickReducer = {
       image: "aamer.jpg",
       desc: "FRONTEND DEVELOPER",
     },
+    {
+      id: "123qwe",
+      name: "umair",
+      age: 30,
+      discription: "he is a first year student  from mgm engineering collage",
+      image: "img.jpg",
+    },
+    {
+      id: "123qwe",
+      name: "umair",
+      age: 30,
+      discription: "he is a first year student  from mgm engineering collage",
+      image: "img.jpg",
+    },
   ],
 };

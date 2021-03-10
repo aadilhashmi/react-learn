@@ -9,17 +9,18 @@ import "./SlickCarousel.css"
 const SlickCarousel = () => {
         const settings = {
           dots: true,
-          lazyLoad: true,
           infinite: true,
-          speed: 500,
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
-          initialSlide: 2,
+          autoplay: true,
+          speed: 2000,
+          autoplaySpeed: 2000,
+          cssEase: "linear",
         };
 
     return (
       <div className="slider">
-        <Slider {...settings}>
+        <Slider className="ABC" {...settings}>
           {SlickReducer.Employe.map((slickData) => {
             return (
               <div>
