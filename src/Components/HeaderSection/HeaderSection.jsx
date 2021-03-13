@@ -19,6 +19,9 @@ import AdmissionPage from "../MainBody/StudentsAdmissionForm/AdmissionPage";
 
 import Module4Landing from "../MainBody/Module4Landing/Module4Landing";
 import SlickCarousel from "../MainBody/React-Slick/SlickCarousel";
+import MegaFair2018 from "../Placement/MegaFair2018";
+import Placement from "../Placement/Placement";
+import PlacementCarasoul from "../Placement/PlacementCarasoul";
 
 const HeaderSection = () => {
   return (
@@ -46,7 +49,10 @@ const HeaderSection = () => {
         {/* <StudentsAdmissionForm /> */}
 
         {/* <Module4Landing /> */}
-        <SlickCarousel/>
+        {/* <SlickCarousel/> */}
+        <MegaFair2018 />
+        <Placement />
+        <PlacementCarasoul />
       </div>
     </React.Fragment>
   );

@@ -1,29 +1,25 @@
-.images{
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    /* margin-top: 10%; */
-
+.images {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  /* margin-top: 10%; */
 }
-.ABC{
-    background:rgb(63, 62, 62);
-    width: 600px;
-    height: 200px;
-    margin: auto;
-    margin-top: 10%;
+.ABC {
+  background: rgb(63, 62, 62);
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  margin-top: 10%;
 }
-.slick-prev:before{
-    background-color: rgb(20, 19, 19);
-    
-    
+.slick-prev:before {
+  background-color: rgb(20, 19, 19);
 }
-.slick-next:before{
-    background-color: rgb(20, 19, 19);
+.slick-next:before {
+  background-color: rgb(20, 19, 19);
 }
 
-.slick-next{
-    /* margin: -100px; */
-    /* border: none; */
-    /* color: black; */
+.slick-next {
+  /* margin: -100px; */
+  /* border: none; */
+  /* color: black; */
 }
-
