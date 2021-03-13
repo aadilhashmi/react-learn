@@ -1,3 +1,27 @@
 .place-Card {
-  background-color: rgba(110, 99, 99, 0.5);
+  background-color: rgba(110, 99, 99, 0.2);
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0;
+  float: left;
+}
+.Card-Img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.para {
+  font-size: larger;
+  font-family: ubuntu;
+  text-align: justify;
+}
+.name {
+  background-color: brown;
+  color: aliceblue;
+}
+.card-btn {
+  background-color: aliceblue;
+  color: black;
 }

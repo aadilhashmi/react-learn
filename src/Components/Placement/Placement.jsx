@@ -8,27 +8,32 @@ import "./Placement.css";
 const Placement = () => {
   return (
     <>
-      {PlacementReducer.Placement.map((PlacementData) => {
-        return (
-          <>
-            <div>
-              <p>{PlacementData.discription}</p>
-              <p>{PlacementData.discription2}</p>
-              <p>{PlacementData.discription3}</p>
-            </div>
-          </>
-        );
-      })}
-      <Card className="place-Card" style={{ width: "20rem", height: "20rem" }}>
-        <Card.Img variant="top" src="" />
+      <Card className="place-Card">
+        <Card.Img className="Card-Img" variant="top" src="khwaja.jpg" />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <b>
+            <Card.Title>Mr. Mahesh Singh Bhatia</Card.Title>
+          </b>
+          <br />
+          <Card.Title className="name">Training & Placement Officer</Card.Title>
+          <br />
+          <Button className="card-btn">View More</Button>
+          <br />
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Contact no. 8008887392/9052322951, 040-24576985 E-mail:
+            placement@nsakcet.ac.in, nsakcet.placements@gmail.com
           </Card.Text>
         </Card.Body>
       </Card>
+      {PlacementReducer.Placement.map((PlacementData) => {
+        return (
+          <>
+            <p className="para">{PlacementData.discription}</p>
+            <p className="para">{PlacementData.discription2}</p>
+            <p className="para">{PlacementData.discription3}</p>
+          </>
+        );
+      })}
     </>
   );
 };
