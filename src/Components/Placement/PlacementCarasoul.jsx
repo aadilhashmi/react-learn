@@ -2,7 +2,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { PlacementReducer } from "../../States/Reducers/PlacementRedeucer";
+import { PlacementReducer } from "../../State/Reducers/PlacementRedeucer";
 import "./PlacementCarasoul.css";
 
 const PlacementCarasoul = () => {

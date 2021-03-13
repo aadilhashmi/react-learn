@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-import { PlacementReducer } from "../../States/Reducers/PlacementRedeucer";
+import { PlacementReducer } from "../../State/Reducers/PlacementRedeucer";
 
 import "./Placement.css";
 

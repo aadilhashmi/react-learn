@@ -1,5 +1,5 @@
 import React from "react";
-import { PlacementReducer } from "../../States/Reducers/PlacementRedeucer";
+import { PlacementReducer } from "../../State/Reducers/PlacementRedeucer";
 import "./MegaFair.css";
 
 const MegaFair2018 = () => {
