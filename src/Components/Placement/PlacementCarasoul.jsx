@@ -19,10 +19,10 @@ const PlacementCarasoul = () => {
   return (
     <div>
       <Slider className="place" {...settings}>
-        {PlacementReducer.Placement.map((PlacementData) => {
+        {PlacementReducer.Images.map((ImagesData) => {
           return (
             <div>
-              <img className="Img" src={PlacementData.image} />
+              <img className="Img" src={ImagesData.image} />
             </div>
           );
         })}

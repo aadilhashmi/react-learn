@@ -28,8 +28,18 @@ const Placement = () => {
       {PlacementReducer.Placement.map((PlacementData) => {
         return (
           <>
+            <h2 className="vission">
+              <i class="fa fa-tags" aria-hidden="true"></i> Vission
+            </h2>
             <p className="para">{PlacementData.discription}</p>
+            <h2 className="vission">
+              <i class="fa fa-tags" aria-hidden="true"></i> Mission
+            </h2>
             <p className="para">{PlacementData.discription2}</p>
+            <h2 className="vission">
+              <i class="fa fa-tags" aria-hidden="true"></i>Training And
+              Placement Office
+            </h2>
             <p className="para">{PlacementData.discription3}</p>
           </>
         );

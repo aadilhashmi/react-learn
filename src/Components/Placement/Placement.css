@@ -1,11 +1,13 @@
 .place-Card {
-  background-color: rgba(110, 99, 99, 0.2);
+  /* background-color: rgba(168, 164, 164, 0.2); */
   width: 400px;
   height: 350px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-top: 0;
-  float: left;
+  /* float: left; */
+  margin-left: 40%;
+  border: 1px solid black;
 }
 .Card-Img {
   width: 150px;
@@ -24,4 +26,22 @@
 .card-btn {
   background-color: aliceblue;
   color: black;
+}
+.vission {
+  background-color: brown;
+  color: aliceblue;
+  padding: 5px;
+  width: fit-content;
+}
+.mission {
+  background-color: brown;
+  color: aliceblue;
+  padding: 5px;
+  width: fit-content;
+}
+.TAPO {
+  background-color: brown;
+  color: aliceblue;
+  padding: 8px;
+  width: fit-content;
 }
