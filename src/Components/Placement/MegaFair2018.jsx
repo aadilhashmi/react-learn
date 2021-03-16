@@ -5,14 +5,10 @@ import "./MegaFair.css";
 const MegaFair2018 = () => {
   return (
     <div>
-      {PlacementReducer.Placement.map((PlacementData) => {
+      {PlacementReducer.PDF.map((PdfData) => {
         return (
           <div>
-            <iframe
-              className="pdf"
-              src={PlacementData.pdf}
-              frameborder="0"
-            ></iframe>
+            <iframe className="pdf" src={PdfData.pdf} frameborder="0"></iframe>
           </div>
         );
       })}

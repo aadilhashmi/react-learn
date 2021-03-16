@@ -11,7 +11,6 @@ Leading organizations have been invited for campus selections. Nawab Shah Alam K
 
 
 `,
-      pdf: "confirmcompanieslist.pdf",
     },
   ],
   Images: [
@@ -29,6 +28,11 @@ Leading organizations have been invited for campus selections. Nawab Shah Alam K
     },
     {
       image: "5.jpg",
+    },
+  ],
+  PDF: [
+    {
+      pdf: "confirmcompanieslist.pdf",
     },
   ],
 };
