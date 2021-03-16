@@ -18,6 +18,7 @@
   font-size: larger;
   font-family: ubuntu;
   text-align: justify;
+  margin-left: 5%;
 }
 .name {
   background-color: brown;
@@ -32,16 +33,19 @@
   color: aliceblue;
   padding: 5px;
   width: fit-content;
+  margin-left: 5%;
 }
 .mission {
   background-color: brown;
   color: aliceblue;
   padding: 5px;
   width: fit-content;
+  margin-left: 5%;
 }
 .TAPO {
   background-color: brown;
   color: aliceblue;
   padding: 8px;
   width: fit-content;
+  margin-left: 5%;
 }

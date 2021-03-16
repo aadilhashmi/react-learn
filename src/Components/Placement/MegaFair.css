@@ -1,5 +1,7 @@
 .pdf {
   width: 50vw;
   height: 30vw;
-  float: right;
+  /* float: right; */
+  margin-left: 25%;
+  margin-top: 10%;
 }
