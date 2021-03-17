@@ -22,6 +22,7 @@ import SlickCarousel from "../MainBody/React-Slick/SlickCarousel";
 import MegaFair2018 from "../Placement/MegaFair2018";
 import Placement from "../Placement/Placement";
 import PlacementCarasoul from "../Placement/PlacementCarasoul";
+import PlacementStats from "../Placement/PlacementStatstics/PlacementStats";
 
 const HeaderSection = () => {
   return (
@@ -53,6 +54,7 @@ const HeaderSection = () => {
         {/* <MegaFair2018 /> */}
         <Placement />
         <PlacementCarasoul />
+        <PlacementStats />
       </div>
     </React.Fragment>
   );
