@@ -11,13 +11,13 @@ const PlacementOverview = () => {
             <th>Placement Overview</th>
             <th>Corporate Visits</th>
             <th>Avg. Package of B.Tech</th>
-            <th>Year</th>
+            <th>Avg. Package of M. TECH</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Mark</td>
+            <td>2019-20</td>
+            <td>125+</td>
             <td>Otto</td>
             <td>@mdo</td>
           </tr>
