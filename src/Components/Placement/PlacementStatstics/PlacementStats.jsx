@@ -6,7 +6,7 @@ const PlacementStats = () => {
   return (
     <div>
       <Table className="tab">
-        <thead>
+        <thead className="head">
           <tr>
             <th>#</th>
             <th>First Name</th>
