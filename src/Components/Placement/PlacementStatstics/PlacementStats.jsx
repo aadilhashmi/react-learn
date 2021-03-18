@@ -24,73 +24,55 @@ const PlacementStats = () => {
           <tr>
             <td>2</td>
             <td>Jacob</td>
-            <td>
-              <a href="#"></a>Thornton
-            </td>
+            <td>Thornton</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>3</td>
             <td>Jacob</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>4</td>
             <td>Larry the Bird</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>5</td>
             <td>Larry the Bird</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>6</td>
             <td>Jacob</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>7</td>
             <td>Larry the Bird</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>8</td>
             <td>Larry the Bird</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>9</td>
             <td>Jacob</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>10</td>
             <td>Jacob</td>
-            <td>
-              <a href="#"></a>@twitter
-            </td>
+            <td>@twitter</td>
             <td>@fat</td>
           </tr>
         </tbody>
