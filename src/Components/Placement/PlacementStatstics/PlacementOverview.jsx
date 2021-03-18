@@ -5,7 +5,7 @@ import { Table } from "react-bootstrap";
 const PlacementOverview = () => {
   return (
     <div>
-      <Table className="tab">
+      <Table className="tab2">
         <thead className="head">
           <tr>
             <th>Placement Overview</th>
