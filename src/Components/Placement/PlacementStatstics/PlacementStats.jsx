@@ -1,5 +1,6 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import "./PlacementStats.css";
 
 const PlacementStats = () => {
   return (
