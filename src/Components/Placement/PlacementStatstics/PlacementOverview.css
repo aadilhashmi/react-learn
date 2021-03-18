@@ -7,11 +7,18 @@
   border: 1px solid black;
   position: absolute;
   left: 22%;
-  top: 5%;
+  top: 10%;
 }
 .head2 {
   background-color: brown;
   color: aliceblue;
+}
+.heading {
+  color: black;
+  font-family: sans-serif;
+  font-style: italic;
+  width: fit-content;
+  margin-left: 22%;
 }
 .tab-R {
   padding: 12px;

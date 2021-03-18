@@ -56,7 +56,7 @@ const HeaderSection = () => {
         {/* <Placement /> */}
         {/* <PlacementCarasoul /> */}
         <PlacementOverview />
-        {/* <PlacementStats /> */}
+        <PlacementStats />
       </div>
     </React.Fragment>
   );

@@ -9,7 +9,7 @@ const PlacementStats = () => {
         <Table className="tab">
           <thead className="head">
             <tr>
-              <th>SrNo.</th>
+              <th className="stats-head">SrNo.</th>
               <th>Students Name</th>
               <th>Companey</th>
               <th>Year</th>

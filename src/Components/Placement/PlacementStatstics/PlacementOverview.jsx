@@ -5,6 +5,9 @@ import { Table } from "react-bootstrap";
 const PlacementOverview = () => {
   return (
     <div>
+      <h1 className="heading">
+        <u> Placement OverView : </u>
+      </h1>
       <Table className="tab2">
         <thead className="head2">
           <tr>
