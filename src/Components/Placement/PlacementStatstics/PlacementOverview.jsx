@@ -6,9 +6,9 @@ const PlacementOverview = () => {
   return (
     <div>
       <Table className="tab2">
-        <thead className="head">
+        <thead className="head2">
           <tr>
-            <th>Placement Overview</th>
+            <th className="tab-R">Placement Overview</th>
             <th>Corporate Visits</th>
             <th>Avg. Package of B.Tech</th>
             <th>Avg. Package of M. TECH</th>

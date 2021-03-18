@@ -1,15 +1,18 @@
 .tab2 {
   border-collapse: collapse;
-  width: 50%;
-  height: 100px;
+  width: 60%;
+  height: 140px;
   text-align: center;
   padding: 5px;
   border: 1px solid black;
   position: absolute;
-  left: 25%;
+  left: 22%;
   top: 5%;
 }
-.head {
+.head2 {
   background-color: brown;
   color: aliceblue;
+}
+.tab-R {
+  padding: 12px;
 }
