@@ -52,8 +52,8 @@ const HeaderSection = () => {
         {/* <Module4Landing /> */}
         {/* <SlickCarousel/> */}
         {/* <MegaFair2018 /> */}
-        <Placement />
-        <PlacementCarasoul />
+        {/* <Placement /> */}
+        {/* <PlacementCarasoul /> */}
         <PlacementStats />
       </div>
     </React.Fragment>
