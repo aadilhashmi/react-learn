@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap";
 const PlacementStats = () => {
   return (
     <div>
-      <Table striped bordered hover>
+      <Table className="tab">
         <thead>
           <tr>
             <th>#</th>
