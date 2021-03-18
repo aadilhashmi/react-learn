@@ -18,8 +18,8 @@ const PlacementOverview = () => {
           <tr>
             <td>2019-20</td>
             <td>125+</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>INR 5 LPA</td>
+            <td>INR 10 LPA</td>
           </tr>
         </tbody>
       </Table>
