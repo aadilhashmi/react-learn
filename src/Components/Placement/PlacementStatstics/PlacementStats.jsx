@@ -8,10 +8,10 @@ const PlacementStats = () => {
       <Table className="tab">
         <thead className="head">
           <tr>
-            <th>#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
+            <th>SrNo.</th>
+            <th>Students Name</th>
+            <th>Companey</th>
+            <th>Year</th>
           </tr>
         </thead>
         <tbody>
@@ -24,13 +24,73 @@ const PlacementStats = () => {
           <tr>
             <td>2</td>
             <td>Jacob</td>
-            <td>Thornton</td>
+            <td>
+              <a href="#"></a>Thornton
+            </td>
             <td>@fat</td>
           </tr>
           <tr>
             <td>3</td>
+            <td>Jacob</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>4</td>
             <td>Larry the Bird</td>
-            <td>@twitter</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Larry the Bird</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Jacob</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Larry the Bird</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Larry the Bird</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Jacob</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Jacob</td>
+            <td>
+              <a href="#"></a>@twitter
+            </td>
             <td>@fat</td>
           </tr>
         </tbody>
