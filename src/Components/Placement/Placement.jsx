@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 
 import { PlacementReducer } from "../../State/Reducers/PlacementRedeucer";
 
@@ -44,6 +45,26 @@ const Placement = () => {
           </>
         );
       })}
+      <div>
+        <Table className="tab">
+          <thead className="head">
+            <tr>
+              <th>SrNo.</th>
+              <th>Students Name</th>
+              <th>Companey</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+          </tbody>
+        </Table>
+      </div>
     </>
   );
 };
