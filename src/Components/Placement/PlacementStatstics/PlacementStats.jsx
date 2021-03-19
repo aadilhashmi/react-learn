@@ -11,7 +11,9 @@ const PlacementStats = () => {
             <tr>
               <th className="stats-head">SrNo.</th>
               <th>Students Name</th>
-              <th>Companey</th>
+              <th>
+                Placed In <br /> (Company)
+              </th>
               <th>Year</th>
             </tr>
           </thead>

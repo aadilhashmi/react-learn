@@ -55,7 +55,7 @@ const HeaderSection = () => {
         {/* <MegaFair2018 /> */}
         {/* <Placement /> */}
         {/* <PlacementCarasoul /> */}
-        <PlacementOverview />
+        {/* <PlacementOverview /> */}
         <PlacementStats />
       </div>
     </React.Fragment>
