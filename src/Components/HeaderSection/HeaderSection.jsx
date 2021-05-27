@@ -24,6 +24,7 @@ import Placement from "../Placement/Placement";
 import PlacementCarasoul from "../Placement/PlacementCarasoul";
 import PlacementStats from "../Placement/PlacementStatstics/PlacementStats";
 import PlacementOverview from "../Placement/PlacementStatstics/PlacementOverview";
+import { Overley } from "../Overley/Overley";
 
 const HeaderSection = () => {
   return (
@@ -56,7 +57,8 @@ const HeaderSection = () => {
         {/* <Placement /> */}
         {/* <PlacementCarasoul /> */}
         {/* <PlacementOverview /> */}
-        <PlacementStats />
+        {/* <PlacementStats /> */}
+        <Overley />
       </div>
     </React.Fragment>
   );
