@@ -31,14 +31,14 @@
   transition: 0.5s ease-in-out;
   background-color: #008cba;
 }
-
-/* .container:hover .overlay {
+/* 
+.container:hover .overlay {
   opacity: 0.9;
 } */
 
 .text {
   color: white;
-  /* background-color: rgb(117, 116, 116, 0.5); */
+  background: rgba(0, 0, 0, 0.5);
   font-family: cursive;
   font-size: 30px;
   position: absolute;
