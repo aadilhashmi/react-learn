@@ -31,10 +31,10 @@
   transition: 0.5s ease-in-out;
   background-color: #008cba;
 }
-/* 
+
 .container:hover .overlay {
   opacity: 0.9;
-} */
+}
 
 .text {
   color: white;
