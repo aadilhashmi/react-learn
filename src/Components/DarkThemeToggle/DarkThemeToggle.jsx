@@ -4,11 +4,15 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
 
 export const DarkThemeToggle = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div>
-      <FormControlLabel
-        control={<Switch name="checkedB" color="primary" />}
-        label="SWITCH FOR DARK MODE"
+      <p>DARK MODE THEME</p>
+      <Switch
+        checked={darkMode}
+        onChange={() => setDarkMode(!darkMode)}
+        color="primary"
       />
     </div>
   );
