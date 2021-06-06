@@ -16,9 +16,7 @@ export const DarkThemeToggle = () => {
         <Switch
           checked={darkMode}
           onChange={() => setDarkMode(!darkMode)}
-          name="checkedB"
           color="primary"
-          label="SWITCH FOR DARK MODE"
         />
       </Paper>
     </ThemeProvider>
