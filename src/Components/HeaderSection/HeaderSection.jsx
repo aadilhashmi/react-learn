@@ -25,7 +25,7 @@ import PlacementCarasoul from "../Placement/PlacementCarasoul";
 import PlacementStats from "../Placement/PlacementStatstics/PlacementStats";
 import PlacementOverview from "../Placement/PlacementStatstics/PlacementOverview";
 import { Overley } from "../Overley/Overley";
-import { DarkThemeToggle } from "../DarkThemeToggle/DarkThemeToggle";
+import { DarkThemeToggle } from "../DarkThemeUsingMui/DarkThemeToggle";
 
 const HeaderSection = () => {
   return (
@@ -59,7 +59,7 @@ const HeaderSection = () => {
         {/* <PlacementCarasoul /> */}
         {/* <PlacementOverview /> */}
         {/* <PlacementStats /> */}
-        {/* <Overley /> */}
+        <Overley />
         <DarkThemeToggle />
       </div>
     </React.Fragment>
