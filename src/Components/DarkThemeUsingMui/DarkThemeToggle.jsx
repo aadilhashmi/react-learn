@@ -13,6 +13,7 @@ export const DarkThemeToggle = () => {
   return (
     <ThemeProvider theme={theme}>
       <Paper style={{ height: "100vh" }}>
+        click for dark mode
         <Switch
           checked={darkMode}
           onChange={() => setDarkMode(!darkMode)}
