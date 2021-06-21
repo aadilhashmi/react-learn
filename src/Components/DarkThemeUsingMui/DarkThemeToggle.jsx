@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FetchingDataFromReduxParent from "../MainBody/FetchingGroupsDataFromRedux/FetchingDataFromReduxParent";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import Switch from "@material-ui/core/Switch";
 import Paper from "@material-ui/core/Paper";
@@ -19,6 +20,7 @@ export const DarkThemeToggle = () => {
           onChange={() => setDarkMode(!darkMode)}
           color="primary"
         />
+        <FetchingDataFromReduxParent />
       </Paper>
     </ThemeProvider>
   );
