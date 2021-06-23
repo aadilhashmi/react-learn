@@ -50,10 +50,10 @@ const HeaderSection = () => {
         {/* <FetchingUserParent /> */}
         {/* <Enable_Disable /> */}
         {/* <AdmissionPage /> */}
-        {/* <StudentsAdmissionForm /> */}
+        <StudentsAdmissionForm />
 
         {/* <Module4Landing /> */}
-        <SlickCarousel/>
+        <SlickCarousel />
         {/* <MegaFair2018 /> */}
         {/* <Placement /> */}
         {/* <PlacementCarasoul /> */}
