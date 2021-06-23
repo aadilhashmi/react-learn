@@ -53,7 +53,7 @@ const HeaderSection = () => {
         {/* <StudentsAdmissionForm /> */}
 
         {/* <Module4Landing /> */}
-        {/* <SlickCarousel/> */}
+        <SlickCarousel/>
         {/* <MegaFair2018 /> */}
         {/* <Placement /> */}
         {/* <PlacementCarasoul /> */}
