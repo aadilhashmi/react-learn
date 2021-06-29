@@ -7,18 +7,27 @@ export const FetchDataUsingApi = () => {
   const [info, setInfo] = useState([]);
   const [filter, setFilter] = useState();
   const [search, setSearch] = useState();
+  //for loading in case get error
+  const [loading, setLoading] = useState(true);
   const apiCall = async () => {
     const result = await axios("https://restcountries.eu/rest/v2/all");
     setInfo(result.data);
     console.log(result);
   };
   useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
     apiCall();
   }, []);
 
   useEffect(() => {
     setFilter(info.filter((country) => country.name.includes(search)));
   }, [search, info]);
+
+  if (loading) {
+    return <p>Loading countries...</p>;
+  }
 
   return (
     <div>

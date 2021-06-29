@@ -1,7 +1,7 @@
 import React from "react";
 
 const FilterCountry = (props) => {
-  const { name, flag } = props;
+  const { name, capital, flag, region } = props;
   return (
     <div>
       <p>
@@ -12,7 +12,13 @@ const FilterCountry = (props) => {
         />
       </p>
       <p>
-        <h3>{name}</h3>
+        <h3>Name:-{name}</h3>
+      </p>
+      <p>
+        <h3>Capital:-{capital}</h3>
+      </p>
+      <p>
+        <h3>Region:-{region}</h3>
       </p>
     </div>
   );
