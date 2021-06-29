@@ -18,7 +18,7 @@ const FilterCountry = (props) => {
         <h3>Capital:-{capital}</h3>
       </p>
       <p>
-        <h3>Region:-{region}</h3>
+        <h3>Region:-{capital}</h3>
       </p>
     </div>
   );
