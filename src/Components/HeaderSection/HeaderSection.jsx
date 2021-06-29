@@ -54,14 +54,14 @@ const HeaderSection = () => {
         {/* <StudentsAdmissionForm /> */}
 
         {/* <Module4Landing /> */}
-        <SlickCarousel />
+        {/* <SlickCarousel /> */}
         {/* <MegaFair2018 /> */}
         {/* <Placement /> */}
         {/* <PlacementCarasoul /> */}
         {/* <PlacementOverview /> */}
         {/* <PlacementStats /> */}
         {/* <Overley /> */}
-        <DarkThemeToggle />
+        {/* <DarkThemeToggle /> */}
         <FetchDataUsingApi />
       </div>
     </React.Fragment>
