@@ -10,21 +10,22 @@ export const FetchDataUsingApi = () => {
   //for loading in case get error
   const [loading, setLoading] = useState(true);
 
-  const apiCall = async () => {
-    const result = await axios("https://restcountries.eu/rest/v2/all");
-    setInfo(result.data);
-    console.log(result);
-  };
+  // const apiCall = async () => {
+  //   const result = await axios("https://restcountries.eu/rest/v2/all");
+  //   setInfo(result.data);
+  //   console.log(result);
+  // };
   useEffect(() => {
-    // axios
-    //   .get("https://restcountries.eu/resta/v2/all")
-    //   .then((res) => {
-    //     setInfo(res.data);
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //   });
-    apiCall();
+    axios
+      .get("https://restcountries.eu/rest
+        1/ v2 / all")
+      .then((res) => {
+        setInfo(res.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+    // apiCall();
     setTimeout(() => {
       setLoading(false);
     }, 2000);
