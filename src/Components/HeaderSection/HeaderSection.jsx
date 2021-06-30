@@ -61,8 +61,8 @@ const HeaderSection = () => {
         {/* <PlacementOverview /> */}
         {/* <PlacementStats /> */}
         {/* <Overley /> */}
-        <DarkThemeToggle />
-        {/* <FetchDataUsingApi /> */}
+        {/* <DarkThemeToggle /> */}
+        <FetchDataUsingApi />
       </div>
     </React.Fragment>
   );

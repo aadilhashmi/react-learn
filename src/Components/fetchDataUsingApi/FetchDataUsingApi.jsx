@@ -10,42 +10,42 @@ export const FetchDataUsingApi = () => {
   //for loading in case get error
   const [loading, setLoading] = useState(true);
 
+  // useEffect(() => {
+  //   async function fecthCountry() {
+  //     let res = await fetch("https://restcountries.eu/rest/v2/all");
+  //     let data = await res.json();
+  //     console.log("hiiiii", data);
+  //     setInfo(data.data);
+  //   }
+  // });
+
+  const apiCall = async () => {
+    const result = await axios("https://restcountries.eu/rest/v2/all");
+    setInfo(result.data);
+    console.log(result);
+  };
   useEffect(() => {
-    async function fecthCountry() {
-      let res = await fetch("https://restcountries.eu/rest/v2/all");
-      let data = await res.json();
-      console.log("hiiiii", data);
-      setInfo(data.data);
-    }
-  });
+    //   axios
+    //     .get("https://restcountries.eu/rest/v2/all")
+    //     .then((res) => {
+    //       setInfo(res.data);
+    //     })
+    //     .catch((error) => {
+    //       console.log(error);
+    //     });
+    apiCall();
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
 
-  // const apiCall = async () => {
-  //   const result = await axios("https://restcountries.eu/rest/v2/all");
-  //   setInfo(result.data);
-  //   console.log(result);
-  // };
-  // useEffect(() => {
-  //   axios
-  //     .get("https://restcountries.eu/rest/v2/all")
-  //     .then((res) => {
-  //       setInfo(res.data);
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  //   // apiCall();
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2000);
-  // }, []);
+  useEffect(() => {
+    setFilter(info.filter((country) => country.name.includes(search)));
+  }, [search, info]);
 
-  // useEffect(() => {
-  //   setFilter(info.filter((country) => country.name.includes(search)));
-  // }, [search, info]);
-
-  // if (loading) {
-  //   return <p>Loading countries...</p>;
-  // }
+  if (loading) {
+    return <p>Loading countries...</p>;
+  }
 
   return (
     <div>
