@@ -27,6 +27,7 @@ import PlacementOverview from "../Placement/PlacementStatstics/PlacementOverview
 import { Overley } from "../Overley/Overley";
 import { DarkThemeToggle } from "../DarkThemeUsingMui/DarkThemeToggle";
 import { FetchDataUsingApi } from "../fetchDataUsingApi/FetchDataUsingApi";
+import { Interview } from "./Interview";
 
 const HeaderSection = () => {
   return (
@@ -62,7 +63,8 @@ const HeaderSection = () => {
         {/* <PlacementStats /> */}
         {/* <Overley /> */}
         {/* <DarkThemeToggle /> */}
-        <FetchDataUsingApi />
+        {/* <FetchDataUsingApi /> */}
+        <Interview />
       </div>
     </React.Fragment>
   );
