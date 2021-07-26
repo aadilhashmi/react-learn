@@ -64,7 +64,7 @@ const HeaderSection = () => {
         <Overley />
         {/* <DarkThemeToggle /> */}
         {/* <FetchDataUsingApi /> */}
-        <Interview />
+        {/* <Interview /> */}
       </div>
     </React.Fragment>
   );
