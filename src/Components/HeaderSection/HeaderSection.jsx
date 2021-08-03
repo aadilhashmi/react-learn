@@ -28,6 +28,8 @@ import { Overley } from "../Overley/Overley";
 import { DarkThemeToggle } from "../DarkThemeUsingMui/DarkThemeToggle";
 import { FetchDataUsingApi } from "../fetchDataUsingApi/FetchDataUsingApi";
 import { Interview } from "./Interview";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const HeaderSection = () => {
   return (
@@ -61,10 +63,10 @@ const HeaderSection = () => {
         {/* <PlacementCarasoul /> */}
         {/* <PlacementOverview /> */}
         {/* <PlacementStats /> */}
-        <Overley />
+        {/* <Overley /> */}
         {/* <DarkThemeToggle /> */}
         {/* <FetchDataUsingApi /> */}
-        {/* <Interview /> */}
+        <Interview />
       </div>
     </React.Fragment>
   );
