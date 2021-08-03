@@ -28,45 +28,69 @@ import { Overley } from "../Overley/Overley";
 import { DarkThemeToggle } from "../DarkThemeUsingMui/DarkThemeToggle";
 import { FetchDataUsingApi } from "../fetchDataUsingApi/FetchDataUsingApi";
 import { Interview } from "./Interview";
-import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const HeaderSection = () => {
   return (
     <React.Fragment>
       <div>
-        {/* amjad sir class tutorial */}
-        {/* <ClassMates /> */}
-        {/* class components */}
-        {/* <PropsWithClassParent /> */}
-        {/* funtion components */}
-        {/* <Parent /> */}
-        {/* react binding tutorial */}
-        {/* <ParentBind /> */}
-        {/* usestate on click on change  tutorial starts  */}
-        {/* <UseStateParentFunc /> */}
-        {/* <UseStateParentPractice /> */}
-        {/* <InlineCss /> */}
-        {/* <MapingPrent /> */}
-        {/* <FetchingDataFromJsonParent /> */}
+        <Router>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/classMates"> classmate</Link>
+              </li>
+              <li>
+                <Link to="/overlay">Overlay</Link>
+              </li>
+              <li>
+                <Link to="/darktheme">DarkTheme</Link>
+              </li>
+            </ul>
+          </nav>
+          {/* amjad sir class tutorial */}
 
-        {/* <FetchingEmployeParent /> */}
-        {/* <FetchingUserParent /> */}
-        {/* <Enable_Disable /> */}
-        {/* <AdmissionPage /> */}
-        {/* <StudentsAdmissionForm /> */}
+          {/* class components */}
+          {/* <PropsWithClassParent /> */}
+          {/* funtion components */}
+          {/* <Parent /> */}
+          {/* react binding tutorial */}
+          {/* <ParentBind /> */}
+          {/* usestate on click on change  tutorial starts  */}
+          {/* <UseStateParentFunc /> */}
+          {/* <UseStateParentPractice /> */}
+          {/* <InlineCss /> */}
+          {/* <MapingPrent /> */}
+          {/* <FetchingDataFromJsonParent /> */}
 
-        {/* <Module4Landing /> */}
-        {/* <SlickCarousel /> */}
-        {/* <MegaFair2018 /> */}
-        {/* <Placement /> */}
-        {/* <PlacementCarasoul /> */}
-        {/* <PlacementOverview /> */}
-        {/* <PlacementStats /> */}
-        {/* <Overley /> */}
-        {/* <DarkThemeToggle /> */}
-        {/* <FetchDataUsingApi /> */}
-        <Interview />
+          {/* <FetchingEmployeParent /> */}
+          {/* <FetchingUserParent /> */}
+          {/* <Enable_Disable /> */}
+          {/* <AdmissionPage /> */}
+          {/* <StudentsAdmissionForm /> */}
+
+          {/* <Module4Landing /> */}
+          {/* <SlickCarousel /> */}
+          {/* <MegaFair2018 /> */}
+          {/* <Placement /> */}
+          {/* <PlacementCarasoul /> */}
+          {/* <PlacementOverview /> */}
+          {/* <PlacementStats /> */}
+
+          {/* <FetchDataUsingApi /> */}
+          {/* <Interview /> */}
+          <Switch>
+            <Route path="/classMates">
+              <ClassMates />
+            </Route>
+            <Route path="/overlay">
+              <Overley />
+            </Route>
+            <Route path="/darktheme">
+              <DarkThemeToggle />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </React.Fragment>
   );
