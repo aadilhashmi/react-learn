@@ -29,6 +29,7 @@ import { DarkThemeToggle } from "../DarkThemeUsingMui/DarkThemeToggle";
 import { FetchDataUsingApi } from "../fetchDataUsingApi/FetchDataUsingApi";
 import { Interview } from "./Interview";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import FetchingDataFromReduxParent from "../MainBody/FetchingGroupsDataFromRedux/FetchingDataFromReduxParent";
 
 const HeaderSection = () => {
   return (
@@ -62,7 +63,7 @@ const HeaderSection = () => {
           {/* <InlineCss /> */}
           {/* <MapingPrent /> */}
           {/* <FetchingDataFromJsonParent /> */}
-
+          <FetchingDataFromReduxParent />
           {/* <FetchingEmployeParent /> */}
           {/* <FetchingUserParent /> */}
           {/* <Enable_Disable /> */}
