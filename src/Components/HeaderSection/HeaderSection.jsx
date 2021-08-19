@@ -95,7 +95,7 @@ const HeaderSection = () => {
               <DarkThemeToggle />
             </Route>
             <Route path="/EmpCard">
-              <EmpCard />
+              {/* <EmpCard /> */}
             </Route>
           </Switch>
         </Router>
