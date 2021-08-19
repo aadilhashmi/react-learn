@@ -30,6 +30,7 @@ import { FetchDataUsingApi } from "../fetchDataUsingApi/FetchDataUsingApi";
 import { Interview } from "./Interview";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import FetchingDataFromReduxParent from "../MainBody/FetchingGroupsDataFromRedux/FetchingDataFromReduxParent";
+import { EmpCard } from "../EmpCard/EmpCard";
 
 const HeaderSection = () => {
   return (
@@ -46,6 +47,9 @@ const HeaderSection = () => {
               </li>
               <li>
                 <Link to="/darktheme">DarkTheme</Link>
+              </li>
+              <li>
+                <Link to="/EmpCard">EmpCard</Link>
               </li>
             </ul>
           </nav>
@@ -89,6 +93,9 @@ const HeaderSection = () => {
             </Route>
             <Route path="/darktheme">
               <DarkThemeToggle />
+            </Route>
+            <Route path="/EmpCard">
+              <EmpCard />
             </Route>
           </Switch>
         </Router>

@@ -1,0 +1,55 @@
+.personal{
+    width: 20rem;
+    margin:3rem;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+.find{
+    width: 20rem;
+}
+.label_person{
+    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom:1px solid black;
+    border-radius: 0 0 20px 20px;
+}
+.view{
+    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+    /* background-color: #8BC6EC; */
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+    width: 18rem;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px 20px 0 0 ;
+    margin: 5px;
+}
+.view:hover{
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    color: black;
+}
+.display{
+    height: 15rem;
+    object-fit:fill;
+    /* border-radius:0 0 50% 50%; */
+}
+.watch{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+.card-body{
+    padding: 0;
+}
+.together{
+    display: inline-block;
+   
+    text-align: center;
+
+}
