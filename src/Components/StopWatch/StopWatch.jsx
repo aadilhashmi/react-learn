@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./StopWatch.css";
-import Timer from "../Timer/Timer";
-import ControlButtons from "../ControlButtons/ControlButtons";
+import { Timer } from "./Timer";
+import { ControlButtons } from "./ControlButtons";
 
-function StopWatch() {
+export const StopWatch = () => {
   const [isActive, setIsActive] = useState(false);
   const [isPaused, setIsPaused] = useState(true);
   const [time, setTime] = useState(0);
@@ -49,6 +49,4 @@ function StopWatch() {
       />
     </div>
   );
-}
-
-export default StopWatch;
+};
