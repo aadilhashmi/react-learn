@@ -31,6 +31,7 @@ import { Interview } from "./Interview";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import FetchingDataFromReduxParent from "../MainBody/FetchingGroupsDataFromRedux/FetchingDataFromReduxParent";
 import { EmpCard } from "../EmpCard/EmpCard";
+import { StopWatch } from "../StopWatch/StopWatch";
 
 const HeaderSection = () => {
   return (
@@ -50,6 +51,9 @@ const HeaderSection = () => {
               </li>
               <li>
                 <Link to="/EmpCard">EmpCard</Link>
+              </li>
+              <li>
+                <Link to="/StopWatch">StopWatch</Link>
               </li>
             </ul>
           </nav>
@@ -94,8 +98,9 @@ const HeaderSection = () => {
             <Route path="/darktheme">
               <DarkThemeToggle />
             </Route>
-            <Route path="/EmpCard">
-              {/* <EmpCard /> */}
+            <Route path="/EmpCard">{/* <EmpCard /> */}</Route>
+            <Route path="/StopWatch">
+              <StopWatch />
             </Route>
           </Switch>
         </Router>
