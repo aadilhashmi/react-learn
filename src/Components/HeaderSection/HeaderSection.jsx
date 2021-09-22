@@ -32,6 +32,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import FetchingDataFromReduxParent from "../MainBody/FetchingGroupsDataFromRedux/FetchingDataFromReduxParent";
 import { EmpCard } from "../EmpCard/EmpCard";
 import { StopWatch } from "../StopWatch/StopWatch";
+import { TagFromAntd } from "../TagFromAntd/TagFromAntd";
+import { Tagcomp } from "../TagFromAntd/Tag";
+import { Marque } from "../MarqueWidget/Marque";
 
 const HeaderSection = () => {
   return (
@@ -55,6 +58,9 @@ const HeaderSection = () => {
               <li>
                 <Link to="/StopWatch">StopWatch</Link>
               </li>
+              <li>
+                <Link to="/Marque">Marque</Link>
+              </li>
             </ul>
           </nav>
           {/* amjad sir class tutorial */}
@@ -71,13 +77,12 @@ const HeaderSection = () => {
           {/* <InlineCss /> */}
           {/* <MapingPrent /> */}
           {/* <FetchingDataFromJsonParent /> */}
-          <FetchingDataFromReduxParent />
+          {/* <FetchingDataFromReduxParent /> */}
           {/* <FetchingEmployeParent /> */}
           {/* <FetchingUserParent /> */}
           {/* <Enable_Disable /> */}
           {/* <AdmissionPage /> */}
           {/* <StudentsAdmissionForm /> */}
-
           {/* <Module4Landing /> */}
           {/* <SlickCarousel /> */}
           {/* <MegaFair2018 /> */}
@@ -88,6 +93,8 @@ const HeaderSection = () => {
 
           {/* <FetchDataUsingApi /> */}
           {/* <Interview /> */}
+          {/* <TagFromAntd /> */}
+          {/* <Tagcomp /> */}
           <Switch>
             <Route path="/classMates">
               <ClassMates />
@@ -98,9 +105,12 @@ const HeaderSection = () => {
             <Route path="/darktheme">
               <DarkThemeToggle />
             </Route>
-            <Route path="/EmpCard">{/* <EmpCard /> */}</Route>
+            <Route path="/EmpCard"></Route>
             <Route path="/StopWatch">
               <StopWatch />
+            </Route>
+            <Route path="/Marque">
+              <Marque />
             </Route>
           </Switch>
         </Router>
