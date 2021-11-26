@@ -35,6 +35,7 @@ import { StopWatch } from "../StopWatch/StopWatch";
 import { TagFromAntd } from "../TagFromAntd/TagFromAntd";
 import { Tagcomp } from "../TagFromAntd/Tag";
 import { Marque } from "../MarqueWidget/Marque";
+import { TransferList } from "../TranferList/TransferList";
 
 const HeaderSection = () => {
   return (
@@ -95,6 +96,7 @@ const HeaderSection = () => {
           {/* <Interview /> */}
           {/* <TagFromAntd /> */}
           {/* <Tagcomp /> */}
+          <TransferList />
           <Switch>
             <Route path="/classMates">
               <ClassMates />
