@@ -37,6 +37,8 @@ import { Tagcomp } from "../TagFromAntd/Tag";
 import { Marque } from "../MarqueWidget/Marque";
 import { TransferList } from "../TranferList/TransferList";
 import { Bootstrapmodal } from "../BootstrapModal/Bootstrapmodal";
+import { ReactShare } from "../ReactShare/ReactShare";
+import { DualListBoxComp } from "../ReactShare/DualListBox/DualListBoxComp";
 
 const HeaderSection = () => {
   return (
@@ -97,8 +99,10 @@ const HeaderSection = () => {
           {/* <Interview /> */}
           {/* <TagFromAntd /> */}
           {/* <Tagcomp /> */}
-          <TransferList />
-          <Bootstrapmodal />
+          {/* <TransferList />
+          <Bootstrapmodal /> */}
+          <DualListBoxComp />
+          <ReactShare />
           <Switch>
             <Route path="/classMates">
               <ClassMates />
