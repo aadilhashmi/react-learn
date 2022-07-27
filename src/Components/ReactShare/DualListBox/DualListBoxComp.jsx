@@ -9,7 +9,7 @@ const options = [
 
 export class DualListBoxComp extends React.Component {
   state = {
-    selected: ["one"],
+    selected: ["two"],
   };
 
   onChange = (selected) => {

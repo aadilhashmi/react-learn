@@ -1,25 +1,25 @@
 import React from "react";
 
 const FilterCountry = (props) => {
-  const { name, capital, flag, region } = props;
+  const { city, capital, flag, region } = props;
   return (
     <div>
       <p>
         <img
           src={flag}
-          alt={name}
+          alt={city}
           style={{ width: "200px", height: "200px" }}
         />
       </p>
       <p>
-        <h3>Name:-{name}</h3>
+        <h3>Name:-{city}</h3>
       </p>
-      <p>
+      {/* <p>
         <h3>Capital:-{capital}</h3>
       </p>
       <p>
         <h3>Region:-{capital}</h3>
-      </p>
+      </p> */}
     </div>
   );
 };

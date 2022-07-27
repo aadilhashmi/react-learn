@@ -40,6 +40,10 @@ import { Bootstrapmodal } from "../BootstrapModal/Bootstrapmodal";
 import { ReactShare } from "../ReactShare/ReactShare";
 import { DualListBoxComp } from "../ReactShare/DualListBox/DualListBoxComp";
 
+import { ReactListViewComp } from "../ReactDragListView/ReactListView";
+import { ReactDictateComp } from "../ReactDictateComp/ReactDictateComp";
+import { RecievedDataFromChild } from "../ChildToParent/RecievedDataFromChild";
+import { Counter } from "../Counter/Counter";
 const HeaderSection = () => {
   return (
     <React.Fragment>
@@ -101,8 +105,12 @@ const HeaderSection = () => {
           {/* <Tagcomp /> */}
           {/* <TransferList />
           <Bootstrapmodal /> */}
-          <DualListBoxComp />
-          <ReactShare />
+          {/* <DualListBoxComp />
+          <ReactListViewComp />
+          <ReactDictateComp/>
+          <ReactShare /> */}
+          <RecievedDataFromChild />
+          <Counter />
           <Switch>
             <Route path="/classMates">
               <ClassMates />

@@ -5,10 +5,13 @@ import FilterCountry from "../../Components/fetchDataUsingApi/FilterCountry";
 
 export const FetchDataUsingApi = () => {
   const [info, setInfo] = useState([]);
-  const [filter, setFilter] = useState();
+
+  const [countryfilter, setCountryFilter] = useState();
   const [search, setSearch] = useState();
   //for loading in case get error
   const [loading, setLoading] = useState(true);
+  const { data } = info;
+  const slicedArray= data.slice(0,99)
 
   // useEffect(() => {
   //   async function fecthCountry() {
@@ -20,9 +23,11 @@ export const FetchDataUsingApi = () => {
   // });
 
   const apiCall = async () => {
-    const result = await axios("https://restcountries.eu/rest/v2/all");
+    const result = await axios(
+      "https://countriesnow.space/api/v0.1/countries/population/cities"
+    );
     setInfo(result.data);
-    console.log(result);
+    console.log(info);
   };
   useEffect(() => {
     //   axios
@@ -39,14 +44,17 @@ export const FetchDataUsingApi = () => {
     }, 2000);
   }, []);
 
-  useEffect(() => {
-    setFilter(info.filter((country) => country.name.includes(search)));
-  }, [search, info]);
+  // useEffect(() => {
+  //   const filteredArray = data.filter((country) => country);
+  //   console.log(filteredArray)
+  //   // setCountryFilter();
+  // }, [search, info]);
 
   if (loading) {
     return <p>Loading countries...</p>;
   }
 
+  console.log("heeeeeelllooo", slicedArray);
   return (
     <div>
       <input
@@ -54,7 +62,8 @@ export const FetchDataUsingApi = () => {
         placeholder="search country"
         onChange={(e) => setSearch(e.target.value)}
       />
-      {filter && filter.map((item, id) => <FilterCountry key={id} {...item} />)}
+      {countryfilter &&
+        countryfilter.map((item, id) => <FilterCountry key={id} {...item} />)}
     </div>
   );
 };
