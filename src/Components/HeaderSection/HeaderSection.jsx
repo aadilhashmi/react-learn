@@ -44,6 +44,7 @@ import { ReactListViewComp } from "../ReactDragListView/ReactListView";
 import { ReactDictateComp } from "../ReactDictateComp/ReactDictateComp";
 import { RecievedDataFromChild } from "../ChildToParent/RecievedDataFromChild";
 import { Counter } from "../Counter/Counter";
+import { CrouselWidget } from "../ReactShare/Mendix/CrouselWidget";
 const HeaderSection = () => {
   return (
     <React.Fragment>
@@ -109,6 +110,7 @@ const HeaderSection = () => {
           <ReactListViewComp />
           <ReactDictateComp/>
           <ReactShare /> */}
+          <CrouselWidget />
           <RecievedDataFromChild />
           <Counter />
           <Switch>
